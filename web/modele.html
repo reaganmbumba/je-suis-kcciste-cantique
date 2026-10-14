@@ -108,6 +108,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .btn:hover { border-color: var(--or-vif); }
 .btn-plein { width: 100%; background: var(--nuit); color: #e2c15c; border: 0; border-radius: 12px; padding: 14px; font-weight: 700; font-size: 15px; letter-spacing: .03em; }
 .btn-vert { background: var(--vert); color: #fff; }
+.btn-rouge { background: #c0392b; color: #fff; }
+.carte-voix { margin-top: 12px; padding: 16px; border-radius: 16px; background: var(--or-pale); border: 1px solid var(--or); text-align: center; }
+.voix-chrono { font-weight: 700; margin: 0 0 10px; }
 .info { background: var(--or-pale); border-radius: 10px; padding: 10px 12px; font-size: 14px; margin: 8px 0; }
 .strophe { margin: 0 0 20px; }
 .voix { color: var(--or); font-weight: 700; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
@@ -200,6 +203,64 @@ function texteParoles(c) {
 }
 function texteAPartager(c) {
   return `🎵 ${c.numero}. ${c.titre}\nCantique ${c.langueNom}\n\n${texteParoles(c)}\n\n${SIGNATURE}`;
+}
+/* Enregistrer sa voix en lisant le cantique, puis l'envoyer par WhatsApp au créateur. */
+let voix = { id: null, rec: null, morceaux: [], blob: null, url: null, debut: 0, minuteur: null };
+function messageVoix(c) {
+  return `${CONTACT.message}\nMotif : Enregistrement audio d'un cantique\n\nJe vous envoie mon enregistrement du cantique ${c.langueNom} n° ${c.numero} « ${c.titre} ».`;
+}
+function carteVoix(c) {
+  const ici = voix.id === c.id;
+  let corps;
+  if (ici && voix.rec) corps = `<p class="voix-chrono" aria-live="polite">🔴 Enregistrement… <span id="chronoVoix">0:00</span></p>
+      <button class="btn-plein" data-action="arreterVoix">⏹ Arrêter</button>`;
+  else if (ici && voix.blob) corps = `<audio controls src="${voix.url}" style="width:100%;margin:6px 0 10px"></audio>
+      <button class="btn-plein btn-vert" data-action="envoyerVoix">💬 Envoyer par WhatsApp</button>
+      <p style="margin:10px 0 0"><button class="btn" style="width:100%" data-action="enregistrerVoix">🔁 Recommencer</button></p>`;
+  else corps = `<button class="btn-plein btn-rouge" data-action="enregistrerVoix">🎙️ Enregistrer ma voix et l'envoyer</button>`;
+  return `<div class="carte-voix">
+      <p style="font-weight:700;margin:0 0 10px">🎙️ Soyez le premier à enregistrer ce cantique</p>
+      ${corps}
+      <p style="color:var(--doux);font-size:13px;margin:10px 0 0">Chantez en lisant les paroles, puis envoyez l'enregistrement par WhatsApp au +243 840 238 592.
+      Si l'enregistrement ne marche pas ici, <a href="https://wa.me/${CONTACT.wa}?text=${encodeURIComponent(messageVoix(c))}" target="_blank" rel="noopener">ouvrez WhatsApp</a> et gardez le bouton micro appuyé pendant que vous chantez.</p>
+    </div>`;
+}
+async function demarrerVoix(c) {
+  if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") { toast("Votre navigateur ne permet pas d'enregistrer ici : utilisez le lien WhatsApp"); return; }
+  let flux;
+  try { flux = await navigator.mediaDevices.getUserMedia({ audio: true }); }
+  catch { toast("Micro refusé ou indisponible : utilisez le lien WhatsApp"); return; }
+  if (voix.url) URL.revokeObjectURL(voix.url);
+  const rec = new MediaRecorder(flux);
+  voix = { id: c.id, rec, morceaux: [], blob: null, url: null, debut: Date.now(), minuteur: null };
+  rec.ondataavailable = e => { if (e.data.size) voix.morceaux.push(e.data); };
+  rec.onstop = () => {
+    flux.getTracks().forEach(t => t.stop());
+    clearInterval(voix.minuteur);
+    voix.blob = new Blob(voix.morceaux, { type: rec.mimeType || "audio/webm" });
+    voix.url = URL.createObjectURL(voix.blob);
+    voix.rec = null;
+    if (vue.nom === "cantique" && vue.id === voix.id) dessiner(true);
+  };
+  rec.start();
+  voix.minuteur = setInterval(() => {
+    const s = Math.floor((Date.now() - voix.debut) / 1000), el = document.getElementById("chronoVoix");
+    if (el) el.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  }, 500);
+  dessiner(true);
+}
+async function envoyerVoix(c) {
+  const ext = (voix.blob.type.includes("mp4") ? "m4a" : voix.blob.type.includes("ogg") ? "ogg" : "webm");
+  const nom = `KCCiste-${c.langue}-${String(c.numero).padStart(3, "0")}.${ext}`;
+  const fichier = new File([voix.blob], nom, { type: voix.blob.type });
+  const msg = messageVoix(c);
+  if (navigator.canShare?.({ files: [fichier] })) {
+    try { await navigator.share({ files: [fichier], text: msg }); toast("Choisissez WhatsApp puis le +243 840 238 592"); return; }
+    catch (e) { if (e.name === "AbortError") return; }
+  }
+  const a = document.createElement("a"); a.href = voix.url; a.download = nom; document.body.appendChild(a); a.click(); a.remove();
+  toast("Fichier téléchargé : joignez-le dans la discussion WhatsApp");
+  const w = document.createElement("a"); w.href = `https://wa.me/${CONTACT.wa}?text=${encodeURIComponent(msg)}`; w.target = "_blank"; w.rel = "noopener"; document.body.appendChild(w); w.click(); w.remove();
 }
 function lienWhatsApp(motif) {
   const m = motif ? CONTACT.message + "\nMotif : " + motif : CONTACT.message;
@@ -300,6 +361,7 @@ const VUES = {
       ${strophes}
       <div class="titre-sec">Écouter</div>
       <p style="color:var(--doux);margin:0">Aucun audio n'est encore associé à ce cantique.</p>
+      ${carteVoix(c)}
       <div class="titre-sec">Crédits et droits</div>
       <p style="color:var(--doux);margin:0">Auteur et droits d'utilisation non renseignés.</p>
       <div style="margin-top:18px"><button class="btn" style="width:100%" data-aller="correction" data-id="${c.id}">✏️ Signaler une erreur / Proposer une correction</button></div>
@@ -453,6 +515,9 @@ document.addEventListener("click", e => {
     case "plein": vue.plein = true; dessiner(true); try { document.documentElement.requestFullscreen?.().catch(() => {}); } catch {} return;
     case "sortirPlein": vue.plein = false; try { if (document.fullscreenElement) document.exitFullscreen(); } catch {} return dessiner();
     case "copier": return copier(texteAPartager(c), "Paroles copiées");
+    case "enregistrerVoix": return demarrerVoix(c);
+    case "arreterVoix": if (voix.rec) voix.rec.stop(); return;
+    case "envoyerVoix": if (voix.blob) return envoyerVoix(c); return;
     case "copierPartage": return copier(texteAPartager(c), "Paroles copiées avec la signature");
     case "viderHistorique": historique = []; memoire.ecrire("historique", []); toast("Historique effacé"); return dessiner();
     case "ouvrirNumero": {

@@ -253,6 +253,23 @@ private fun PageCantique(
         } else {
             c.audios.forEach { p -> LignePiste(c, p, a.lecteur) }
         }
+        // À côté de « Écouter » : chacun peut chanter en lisant, s'enregistrer et l'envoyer par WhatsApp.
+        Spacer(Modifier.height(10.dp))
+        Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer), shape = RoundedCornerShape(16.dp)) {
+            Column(Modifier.padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    if (c.audios.isEmpty()) "🎙️ Soyez le premier à enregistrer ce cantique" else "🎙️ Envoyez aussi votre voix",
+                    fontWeight = FontWeight.Black, fontSize = 16.sp, textAlign = TextAlign.Center,
+                )
+                Spacer(Modifier.height(10.dp))
+                GrosBouton("🔴 ENREGISTRER MA VOIX ET L'ENVOYER", Rouge) { a.enregistrer(c) }
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    "Chantez en lisant les paroles, puis envoyez l'enregistrement par WhatsApp au +243 840 238 592.",
+                    color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center, fontSize = 13.sp,
+                )
+            }
+        }
 
         // Crédits et version
         TitreSection("Crédits et droits")
@@ -262,20 +279,6 @@ private fun PageCantique(
         Spacer(Modifier.height(16.dp))
         OutlinedButton(onClick = { a.corriger(c) }, modifier = Modifier.fillMaxWidth()) { Text("✏️ Signaler une erreur / Proposer une correction") }
 
-        // Fonction existante : enregistrer sa voix et l'envoyer au créateur.
-        Spacer(Modifier.height(16.dp))
-        Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer), shape = RoundedCornerShape(16.dp)) {
-            Column(Modifier.padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text("🎙️ MON ENREGISTREMENT", fontWeight = FontWeight.Black, fontSize = 16.sp)
-                Spacer(Modifier.height(10.dp))
-                GrosBouton("🔴 ENREGISTRER CE CANTIQUE", Rouge) { a.enregistrer(c) }
-                Spacer(Modifier.height(8.dp))
-                Text(
-                    "« Chantez ce cantique et envoyez votre enregistrement au créateur. »",
-                    color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center, fontSize = 13.sp,
-                )
-            }
-        }
         Spacer(Modifier.height(24.dp))
         Text("← Balayez pour le cantique précédent ou suivant →", fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
         Spacer(Modifier.height(24.dp))
