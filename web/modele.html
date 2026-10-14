@@ -1,0 +1,495 @@
+<title>Je suis KCCiste Cantique</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Mise en page : colonne type téléphone (max 560px) — bannière photo, puis listes et cartes discrètes. */
+:root {
+  --fond: #ffffff;
+  --surface: #f7f6f2;
+  --ligne: #e6dfcc;
+  --texte: #14213d;
+  --doux: #5c6274;
+  --or: #b8921c;
+  --or-vif: #c9a227;
+  --or-pale: #f7f1e1;
+  --nuit: #14213d;
+  --sur-nuit: #ffffff;
+  --danger: #b3261e;
+  --vert: #1b8a47;
+  --f-titre: "Cinzel", "Times New Roman", serif;
+  --f-texte: "Source Sans 3", "Segoe UI", Roboto, Arial, sans-serif;
+  --taille: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #0e1320; --surface: #161d2e; --ligne: #2b3346; --texte: #ebe8df; --doux: #a9afbd;
+    --or: #e2c15c; --or-vif: #e2c15c; --or-pale: #2a2412; --nuit: #1b2540; --sur-nuit: #ffffff;
+    --danger: #f2a49b; --vert: #5fd08a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #0e1320; --surface: #161d2e; --ligne: #2b3346; --texte: #ebe8df; --doux: #a9afbd;
+  --or: #e2c15c; --or-vif: #e2c15c; --or-pale: #2a2412; --nuit: #1b2540; --sur-nuit: #ffffff;
+  --danger: #f2a49b; --vert: #5fd08a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { background: var(--fond); color: var(--texte); font-family: var(--f-texte); font-size: 16px; line-height: 1.45; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid var(--or-vif); outline-offset: 2px; }
+.app { max-width: 560px; margin: 0 auto; min-height: 100%; background: var(--fond); }
+.gouttiere { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* Logo KCC */
+.logo { flex: none; border-radius: 50%; background: #fff; border: 2px solid var(--or-vif); display: grid; place-items: center; color: #c9a227; font-family: var(--f-titre); font-weight: 700; letter-spacing: .04em; }
+
+/* Barre du haut */
+.barre { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--fond); border-bottom: 1px solid color-mix(in srgb, var(--or-vif) 60%, transparent); display: flex; align-items: center; gap: 4px; padding-block: 8px; }
+.barre h1 { font-size: 17px; margin: 0; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ico { background: none; border: 0; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-size: 20px; flex: none; }
+.ico:hover { background: var(--surface); }
+.ico.actif { color: var(--or-vif); }
+
+/* Bannière d'accueil */
+.banniere { position: relative; height: 330px; background: #14213d center top / cover no-repeat; color: #fff; overflow: hidden; }
+.banniere::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(20,33,61,.55), rgba(20,33,61,0) 45%, rgba(20,33,61,.93)); }
+.banniere > * { position: relative; z-index: 1; }
+.ban-haut { display: flex; align-items: center; gap: 10px; padding-block: 14px; }
+.ban-haut .eyebrow { color: #e2c15c; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.ban-haut .marque { font-family: var(--f-titre); font-size: 19px; font-weight: 700; letter-spacing: .06em; }
+.ban-bas { position: absolute; left: 0; right: 0; bottom: 16px; }
+.ban-bas h2 { margin: 0; font-size: 24px; text-wrap: balance; }
+.ban-bas p { margin: 2px 0 12px; opacity: .88; }
+.faux-champ { width: 100%; text-align: left; background: #fff; color: #5c6274; border: 0; border-radius: 28px; padding: 14px 18px; font-size: 16px; box-shadow: 0 4px 18px rgba(0,0,0,.25); }
+
+/* Sections */
+.titre-sec { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; margin: 22px 0 10px; }
+.titre-sec::before { content: ""; width: 4px; height: 18px; border-radius: 2px; background: var(--or-vif); }
+.grille { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.recueil { background: var(--nuit); color: var(--sur-nuit); border: 1px solid var(--or-vif); border-radius: 16px; padding: 16px; text-align: left; }
+.recueil b { display: block; color: #e2c15c; font-family: var(--f-titre); font-size: 19px; margin-top: 4px; }
+.recueil span { opacity: .85; font-size: 14px; }
+.tuile { background: var(--fond); border: 1px solid var(--ligne); border-radius: 16px; padding: 14px; text-align: left; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tuile .i { font-size: 22px; margin-bottom: 4px; }
+.tuile b { font-size: 15px; }
+.tuile small { color: var(--doux); font-size: 13px; }
+.bandeau { width: 100%; background: var(--or-pale); border: 0; border-radius: 14px; padding: 14px; text-align: left; display: flex; gap: 12px; align-items: center; margin-top: 10px; }
+.bandeau small { display: block; color: var(--doux); }
+.pied { text-align: center; color: var(--doux); font-size: 13px; padding-block: 28px; }
+
+/* Listes */
+.onglets { display: flex; border-bottom: 1px solid var(--ligne); }
+.onglets button { flex: 1; background: none; border: 0; padding: 12px 4px; font-weight: 600; color: var(--doux); border-bottom: 3px solid transparent; }
+.onglets button[aria-selected="true"] { color: var(--texte); border-bottom-color: var(--or-vif); }
+.champ { width: 100%; border: 1px solid var(--ligne); background: var(--fond); color: var(--texte); border-radius: 26px; padding: 12px 16px; font-size: 16px; }
+.puces { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+.puce { border: 1px solid var(--ligne); background: var(--fond); border-radius: 18px; padding: 6px 14px; font-size: 14px; }
+.puce[aria-pressed="true"] { background: var(--or-pale); border-color: var(--or-vif); font-weight: 600; }
+.liste { list-style: none; margin: 0; padding: 0; }
+.ligne { width: 100%; display: flex; align-items: center; gap: 12px; background: none; border: 0; border-bottom: 1px solid var(--ligne); padding: 12px 0; text-align: left; }
+.num { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--or-vif); display: grid; place-items: center; color: var(--or); font-weight: 700; font-size: 13px; font-variant-numeric: tabular-nums; }
+.ligne .txt { flex: 1; min-width: 0; }
+.ligne .t { font-weight: 600; display: block; }
+.ligne .s { color: var(--doux); font-size: 13px; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.etoile { color: var(--or-vif); }
+.compte { color: var(--doux); font-size: 13px; margin: 4px 0; }
+.vide { text-align: center; padding: 48px 12px; color: var(--doux); }
+.vide b { display: block; color: var(--texte); font-size: 17px; margin: 6px 0 4px; }
+
+/* Lecture */
+.eyebrow-or { color: var(--or); font-weight: 700; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
+.titre-cant { font-family: var(--f-titre); font-size: calc(var(--taille) + 6px); line-height: 1.2; margin: 2px 0 8px; text-wrap: balance; }
+.pastilles { display: flex; gap: 6px; flex-wrap: wrap; }
+.pastille { background: var(--nuit); color: #fff; border-radius: 6px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
+.pastille.or { background: var(--or-pale); color: var(--texte); border: 1px solid var(--or-vif); }
+.outils { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.btn { border: 1px solid var(--ligne); background: var(--fond); border-radius: 22px; padding: 8px 14px; font-weight: 600; }
+.btn:hover { border-color: var(--or-vif); }
+.btn-plein { width: 100%; background: var(--nuit); color: #e2c15c; border: 0; border-radius: 12px; padding: 14px; font-weight: 700; font-size: 15px; letter-spacing: .03em; }
+.btn-vert { background: var(--vert); color: #fff; }
+.info { background: var(--or-pale); border-radius: 10px; padding: 10px 12px; font-size: 14px; margin: 8px 0; }
+.strophe { margin: 0 0 20px; }
+.voix { color: var(--or); font-weight: 700; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.paroles { font-size: var(--taille); line-height: 1.5; white-space: pre-line; margin: 2px 0 0; max-width: 62ch; }
+.nav-cant { display: flex; justify-content: space-between; gap: 8px; margin: 24px 0; }
+.plein { position: fixed; inset: 0; z-index: 20; background: var(--fond); overflow-y: auto; padding-top: max(20px, env(safe-area-inset-top, 0px)); padding-bottom: max(24px, env(safe-area-inset-bottom, 0px)); }
+.plein .paroles { font-size: calc(var(--taille) + 6px); }
+
+/* Formulaires */
+label { display: block; font-weight: 600; margin: 14px 0 6px; }
+textarea, select, input[type="text"] { width: 100%; border: 1px solid var(--ligne); background: var(--fond); color: var(--texte); border-radius: 10px; padding: 10px 12px; font: inherit; }
+textarea { min-height: 110px; resize: vertical; }
+.actuel { background: var(--surface); border-radius: 10px; padding: 12px; white-space: pre-line; }
+.radio { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--ligne); font-weight: 400; margin: 0; }
+.ligne-reglage { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--ligne); font-weight: 400; margin: 0; }
+input[type="range"] { width: 100%; accent-color: var(--or-vif); }
+.toast { position: fixed; left: 50%; bottom: max(24px, calc(env(safe-area-inset-bottom, 0px) + 16px)); transform: translateX(-50%); background: var(--nuit); color: #fff; padding: 10px 18px; border-radius: 22px; font-size: 14px; z-index: 30; max-width: calc(100% - 32px); }
+.selectionnable { user-select: all; font-weight: 700; }
+.corps { padding-block: 12px 32px; }
+.centre { text-align: center; }
+@media (prefers-reduced-motion: no-preference) { .vue { animation: entree .18s ease-out; } @keyframes entree { from { opacity: .4; transform: translateY(4px); } } }
+</style>
+
+<div class="app" id="app"></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const RECUEILS = __DATA__;
+const PHOTO = "__PHOTO__";
+const CONTACT = { nom: "Prédicateur Reagan MBUMBA", tel: "+243 840 238 592", wa: "243840238592",
+  message: "Bonjour Prédicateur Reagan MBUMBA, je vous contacte au sujet de KCCISTE CANTIQUE.",
+  motifs: ["Correction de cantique", "Traduction", "Problème audio", "Problème technique", "Suggestion", "Collaboration"] };
+const SIGNATURE = "KCCISTE CANTIQUE\n© KCCISTE CANTIQUE — Je suis KCCiste\nConception : Prédicateur Reagan MBUMBA";
+const LANGUES = [{ code: "lingala", nom: "Lingala" }, { code: "kikongo", nom: "Kikongo" }];
+
+// Cantiques avec identifiant stable « langue-001 », comme dans l'application Android.
+const CANTIQUES = [];
+for (const l of LANGUES) for (const c of RECUEILS[l.code]) {
+  CANTIQUES.push({ ...c, langue: l.code, langueNom: l.nom, id: l.code + "-" + String(c.numero).padStart(3, "0") });
+}
+const parId = Object.fromEntries(CANTIQUES.map(c => [c.id, c]));
+
+// Mémoire locale (favoris, historique, réglages) : sur cet appareil seulement.
+const memoire = {
+  lire(cle, defaut) { try { const v = localStorage.getItem("kcc-" + cle); return v ? JSON.parse(v) : defaut; } catch { return defaut; } },
+  ecrire(cle, v) { try { localStorage.setItem("kcc-" + cle, JSON.stringify(v)); } catch {} },
+};
+let favoris = memoire.lire("favoris", []);
+let historique = memoire.lire("historique", []);
+let reglages = Object.assign({ theme: "systeme", taille: 20, voix: true }, memoire.lire("reglages", {}));
+
+function appliquerReglages() {
+  const r = document.documentElement;
+  if (reglages.theme === "clair") r.setAttribute("data-theme", "light");
+  else if (reglages.theme === "sombre") r.setAttribute("data-theme", "dark");
+  else r.removeAttribute("data-theme");
+  r.style.setProperty("--taille", reglages.taille + "px");
+  memoire.ecrire("reglages", reglages);
+}
+
+const normaliser = s => s.normalize("NFD").replace(/\p{M}+/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const INDEX = CANTIQUES.map(c => ({ c, titre: normaliser(c.titre), paroles: c.strophes.map(s => s.texte).join("\n") }));
+INDEX.forEach(e => e.parolesN = normaliser(e.paroles));
+
+function rechercher(q, langue) {
+  const base = INDEX.filter(e => !langue || e.c.langue === langue);
+  const n = normaliser(q);
+  if (!n) return base.map(e => ({ c: e.c }));
+  const mots = n.split(" "), num = /^\d+$/.test(n) ? +n : null;
+  const res = [];
+  for (const e of base) {
+    let rang = -1, extrait = null;
+    if (num !== null && e.c.numero === num) rang = 0;
+    else if (e.titre.startsWith(n)) rang = 1;
+    else if (mots.every(m => e.titre.includes(m))) rang = 2;
+    else if (mots.every(m => e.parolesN.includes(m) || e.titre.includes(m))) {
+      rang = 3;
+      extrait = e.paroles.split("\n").find(l => mots.some(m => normaliser(l).includes(m)));
+    }
+    if (rang >= 0) res.push({ c: e.c, rang, extrait });
+  }
+  return res.sort((a, b) => a.rang - b.rang || a.c.langue.localeCompare(b.c.langue) * -1 || a.c.numero - b.c.numero);
+}
+
+const echapper = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+const logo = t => `<div class="logo" style="width:${t}px;height:${t}px;font-size:${Math.round(t * .27)}px" aria-hidden="true">KCC</div>`;
+
+function texteParoles(c) {
+  return c.strophes.map(s => (s.voix ? s.voix + " : " : "") + s.texte).join("\n\n");
+}
+function texteAPartager(c) {
+  return `🎵 ${c.numero}. ${c.titre}\nCantique ${c.langueNom}\n\n${texteParoles(c)}\n\n${SIGNATURE}`;
+}
+function lienWhatsApp(motif) {
+  const m = motif ? CONTACT.message + "\nMotif : " + motif : CONTACT.message;
+  return `https://wa.me/${CONTACT.wa}?text=${encodeURIComponent(m)}`;
+}
+
+let minuteur;
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(minuteur); minuteur = setTimeout(() => t.hidden = true, 2600);
+}
+async function copier(texte, msg) {
+  try { await navigator.clipboard.writeText(texte); toast(msg || "Copié"); }
+  catch {
+    const z = document.createElement("textarea"); z.value = texte; document.body.appendChild(z); z.select();
+    let ok = false; try { ok = document.execCommand("copy"); } catch {}
+    z.remove(); toast(ok ? (msg || "Copié") : "Copie impossible : sélectionnez le texte à la main");
+  }
+}
+
+// ---------- Navigation ----------
+const pile = [];
+let vue = { nom: "accueil" };
+function aller(nom, params = {}) { pile.push(vue); vue = { nom, ...params }; dessiner(true); }
+function retour() { vue = pile.pop() || { nom: "accueil" }; dessiner(true); }
+
+function barre(titre, actions = "") {
+  return `<header class="barre gouttiere"><button class="ico" data-action="retour" aria-label="Retour">←</button><h1>${echapper(titre)}</h1>${actions}</header>`;
+}
+function ligneCantique(c, sous) {
+  const fav = favoris.includes(c.id) ? '<span class="etoile" aria-label="Favori">★</span>' : "";
+  return `<li><button class="ligne" data-ouvrir="${c.id}"><span class="num">${String(c.numero).padStart(3, "0")}</span><span class="txt"><span class="t">${echapper(c.titre)}</span>${sous ? `<span class="s">${echapper(sous)}</span>` : ""}</span>${fav}</button></li>`;
+}
+const vide = (i, t, x) => `<div class="vide"><div style="font-size:38px">${i}</div><b>${t}</b>${x}</div>`;
+
+const VUES = {
+  accueil() {
+    const recents = historique.map(id => parId[id]).filter(Boolean).slice(0, 5);
+    const tuiles = [
+      ["★", "Favoris", favoris.length + " cantique(s)", "favoris"],
+      ["🕘", "Historique", "Derniers consultés", "historique"],
+      ["🎧", "Audios", "Écoute et hors ligne", "audios"],
+      ["✏️", "Corrections", "Proposer une correction", "bibliotheque"],
+      ["📱", "Contact", "WhatsApp du concepteur", "contact"],
+      ["⚙️", "Paramètres", "Thème, taille du texte", "parametres"],
+    ];
+    return `
+    <section class="banniere" style="background-image:url('${PHOTO}')">
+      <div class="ban-haut gouttiere">${logo(46)}<div style="flex:1;min-width:0"><div class="eyebrow">Je suis KCCiste</div><div class="marque">KCCISTE CANTIQUE</div></div>
+      <button class="ico" style="color:#fff" data-aller="apropos" aria-label="À propos">ⓘ</button></div>
+      <div class="ban-bas gouttiere"><h2>Cantiques Lingala &amp; Kikongo</h2><p>Paroles, audio et traductions</p>
+      <button class="faux-champ" data-aller="recherche">🔍&nbsp; Numéro, titre ou paroles…</button></div>
+    </section>
+    <div class="gouttiere">
+      <div class="titre-sec">Recueils</div>
+      <div class="grille">${LANGUES.map(l => `<button class="recueil" data-aller="bibliotheque" data-langue="${l.code}">📖<b>${l.nom}</b><span>${RECUEILS[l.code].length} cantiques</span></button>`).join("")}</div>
+      <button class="bandeau" data-aller="allerA"><span style="font-size:22px">🔢</span><span><b>Aller au cantique n°…</b><small>Tapez un numéro pour l'ouvrir directement</small></span></button>
+      <div class="titre-sec">Mon espace</div>
+      <div class="grille">${tuiles.map(t => `<button class="tuile" data-aller="${t[3]}"><span class="i">${t[0]}</span><b>${t[1]}</b><small>${t[2]}</small></button>`).join("")}</div>
+      ${recents.length ? `<div class="titre-sec">Récemment consultés</div><ul class="liste">${recents.map(c => ligneCantique(c, c.langueNom)).join("")}</ul>` : ""}
+      <div class="pied">© KCCISTE CANTIQUE — Je suis KCCiste<br>Conception : ${CONTACT.nom}</div>
+    </div>`;
+  },
+
+  bibliotheque() {
+    const langue = vue.langue || "lingala";
+    return `${barre("Bibliothèque")}
+    <div class="onglets gouttiere" role="tablist">${LANGUES.map(l => `<button role="tab" aria-selected="${l.code === langue}" data-langue-onglet="${l.code}">${l.nom} (${RECUEILS[l.code].length})</button>`).join("")}</div>
+    <div class="gouttiere corps"><input class="champ" id="filtre" type="search" placeholder="Filtrer : numéro, titre ou paroles…" value="${echapper(vue.filtre || "")}" aria-label="Filtrer les cantiques">
+    <div id="resultats"></div></div>`;
+  },
+
+  recherche() {
+    return `${barre("Recherche")}
+    <div class="gouttiere corps"><input class="champ" id="requete" type="search" placeholder="Numéro, titre ou paroles…" value="${echapper(vue.requete || "")}" aria-label="Rechercher">
+    <div class="puces">${[["", "Toutes"], ...LANGUES.map(l => [l.code, l.nom])].map(([c, n]) => `<button class="puce" data-filtre-langue="${c}" aria-pressed="${(vue.langue || "") === c}">${n}</button>`).join("")}</div>
+    <div id="resultats"></div></div>`;
+  },
+
+  cantique() {
+    const c = parId[vue.id];
+    const fav = favoris.includes(c.id);
+    const memeLangue = CANTIQUES.filter(x => x.langue === c.langue);
+    const i = memeLangue.indexOf(c), prec = memeLangue[i - 1], suiv = memeLangue[i + 1];
+    const strophes = c.strophes.map(s => `<div class="strophe">${reglages.voix && s.voix ? `<div class="voix">${echapper(s.voix)}</div>` : ""}<p class="paroles">${echapper(s.texte)}</p></div>`).join("");
+    const trad = vue.trad ? `<div class="info">Pas encore de traduction en ${vue.trad === "pt" ? "portugais" : "anglais"} pour ce cantique. Les paroles originales sont affichées.</div>` : "";
+    if (vue.plein) return `<div class="plein gouttiere"><button class="btn" data-action="sortirPlein" style="float:right">✕ Quitter</button>
+      <div class="titre-cant">${c.numero}. ${echapper(c.titre)}</div>${strophes}</div>`;
+    return `${barre(c.numero + ". " + c.titre, `<button class="ico ${fav ? "actif" : ""}" data-action="favori" aria-label="${fav ? "Retirer des favoris" : "Ajouter aux favoris"}" aria-pressed="${fav}">★</button><button class="ico" data-aller="partage" aria-label="Partager">⤴</button>`)}
+    <article class="gouttiere corps">
+      <div class="eyebrow-or">Cantique n° ${c.numero}</div>
+      <h2 class="titre-cant">${echapper(c.titre)}</h2>
+      <div class="pastilles"><span class="pastille">${c.langueNom}</span><span class="pastille or">Version 1</span></div>
+      <div class="outils"><button class="btn" data-action="moins" aria-label="Réduire le texte">A−</button><button class="btn" data-action="plus" aria-label="Agrandir le texte">A+</button><button class="btn" data-action="plein">⛶ Plein écran</button><button class="btn" data-action="copier">📋 Copier</button></div>
+      <div class="puces">${[["", c.langueNom], ["pt", "🌐 Portugais"], ["en", "🌐 Anglais"]].map(([k, n]) => `<button class="puce" data-trad="${k}" aria-pressed="${(vue.trad || "") === k}">${n}</button>`).join("")}</div>
+      ${trad}
+      ${strophes}
+      <div class="titre-sec">Écouter</div>
+      <p style="color:var(--doux);margin:0">Aucun audio n'est encore associé à ce cantique.</p>
+      <div class="titre-sec">Crédits et droits</div>
+      <p style="color:var(--doux);margin:0">Auteur et droits d'utilisation non renseignés.</p>
+      <div style="margin-top:18px"><button class="btn" style="width:100%" data-aller="correction" data-id="${c.id}">✏️ Signaler une erreur / Proposer une correction</button></div>
+      <div class="nav-cant">${prec ? `<button class="btn" data-ouvrir-remplace="${prec.id}">← N° ${prec.numero}</button>` : "<span></span>"}${suiv ? `<button class="btn" data-ouvrir-remplace="${suiv.id}">N° ${suiv.numero} →</button>` : ""}</div>
+    </article>`;
+  },
+
+  partage() {
+    const c = parId[vue.id], t = texteAPartager(c);
+    return `${barre("Partager")}
+    <div class="gouttiere corps">
+      <p><b>${c.numero}. ${echapper(c.titre)}</b></p>
+      <p><a class="btn-plein btn-vert" style="display:block;text-align:center;text-decoration:none" href="https://wa.me/?text=${encodeURIComponent(t)}" target="_blank" rel="noopener">💬 Partager sur WhatsApp</a></p>
+      <p><button class="btn" style="width:100%" data-action="copierPartage">📋 Copier les paroles avec la signature</button></p>
+      <p><a class="btn" style="display:block;text-align:center;text-decoration:none" href="https://www.facebook.com/" target="_blank" rel="noopener">📘 Ouvrir Facebook</a></p>
+      <p class="info">Facebook n'accepte pas de texte prérempli : copiez les paroles, puis collez-les dans votre publication.</p>
+      <label for="apercu">Texte partagé</label><textarea id="apercu" readonly rows="12">${echapper(t)}</textarea>
+    </div>`;
+  },
+
+  favoris() {
+    const l = favoris.map(id => parId[id]).filter(Boolean);
+    return `${barre("★ Favoris")}<div class="gouttiere corps">${l.length ? `<ul class="liste">${l.map(c => ligneCantique(c, c.langueNom)).join("")}</ul>` : vide("★", "Aucun favori", "Ouvrez un cantique et touchez l'étoile pour le retrouver ici.")}</div>`;
+  },
+
+  historique() {
+    const l = historique.map(id => parId[id]).filter(Boolean);
+    return `${barre("Historique", l.length ? `<button class="btn" data-action="viderHistorique">Effacer</button>` : "")}<div class="gouttiere corps">${l.length ? `<ul class="liste">${l.map(c => ligneCantique(c, c.langueNom)).join("")}</ul>` : vide("🕘", "Historique vide", "Les cantiques consultés apparaîtront ici.")}</div>`;
+  },
+
+  audios() {
+    return `${barre("Audios")}<div class="gouttiere corps">${vide("🎧", "Aucun audio pour l'instant", "Les audios des cantiques apparaîtront ici quand l'administration les aura ajoutés. Dans l'application Android, on peut les écouter écran éteint et les télécharger pour les écouter hors connexion.")}</div>`;
+  },
+
+  allerA() {
+    return `${barre("Aller au cantique n°")}<div class="gouttiere corps">
+      <div class="puces">${LANGUES.map(l => `<button class="puce" data-allera-langue="${l.code}" aria-pressed="${(vue.langue || "lingala") === l.code}">${l.nom}</button>`).join("")}</div>
+      <input class="champ" id="numero" inputmode="numeric" placeholder="Numéro" aria-label="Numéro du cantique" value="${echapper(vue.numero || "")}">
+      <p id="trouve" class="compte"></p>
+      <button class="btn-plein" data-action="ouvrirNumero">Ouvrir</button></div>`;
+  },
+
+  correction() {
+    const c = parId[vue.id];
+    const idx = vue.index ?? 0;
+    const actuel = idx < 0 ? c.titre : (c.strophes[idx] || {}).texte || "";
+    return `${barre("Proposer une correction")}<div class="gouttiere corps">
+      <div class="eyebrow-or">${c.langueNom} n° ${c.numero}</div><b>${echapper(c.titre)}</b>
+      <label for="ligneConcernee">1. Ligne concernée</label>
+      <select id="ligneConcernee"><option value="-1"${idx < 0 ? " selected" : ""}>Titre du cantique</option>${c.strophes.map((s, i) => `<option value="${i}"${i === idx ? " selected" : ""}>Strophe ${i + 1}${s.voix ? " (" + s.voix + ")" : ""} : ${echapper(s.texte.split("\n")[0].slice(0, 40))}…</option>`).join("")}</select>
+      <label>2. Texte actuellement affiché</label><div class="actuel">${echapper(actuel)}</div>
+      <label for="propose">3. Correction proposée</label><textarea id="propose">${echapper(actuel)}</textarea>
+      <label for="explication">Explication (facultatif)</label><textarea id="explication" style="min-height:70px"></textarea>
+      <p class="info">Dans l'application Android, on peut aussi joindre un message vocal et recevoir un numéro de référence. Ici, la correction part par WhatsApp : le texte est copié, collez-le dans la conversation.</p>
+      <button class="btn-plein btn-vert" data-action="envoyerCorrection">💬 Envoyer par WhatsApp</button>
+      <p class="compte">Aucune correction n'est publiée automatiquement : l'administration vérifie chaque proposition.</p></div>`;
+  },
+
+  contact() {
+    const m = vue.motif || "";
+    return `${barre("Contact")}<div class="gouttiere corps centre">${logo(88).replace('class="logo"', 'class="logo" style="margin:8px auto"')}
+      <b style="font-size:18px">${CONTACT.nom}</b><div style="color:var(--doux)">WhatsApp : <span class="selectionnable">${CONTACT.tel}</span></div></div>
+      <div class="gouttiere"><div class="titre-sec">Motif du contact</div>
+      ${CONTACT.motifs.map(x => `<label class="radio"><input type="radio" name="motif" value="${x}"${x === m ? " checked" : ""}> ${x}</label>`).join("")}
+      <p class="compte" style="margin-top:12px">Message prérempli : « ${echapper(m ? CONTACT.message + " Motif : " + m : CONTACT.message)} »</p>
+      <a class="btn-plein btn-vert" style="display:block;text-align:center;text-decoration:none;margin-bottom:28px" href="${lienWhatsApp(m)}" target="_blank" rel="noopener">💬 Ouvrir WhatsApp</a></div>`;
+  },
+
+  parametres() {
+    return `${barre("Paramètres")}<div class="gouttiere corps">
+      <div class="titre-sec">Apparence</div>
+      ${[["systeme", "Comme l'appareil"], ["clair", "Clair"], ["sombre", "Sombre"]].map(([k, n]) => `<label class="radio"><input type="radio" name="theme" value="${k}"${reglages.theme === k ? " checked" : ""}> ${n}</label>`).join("")}
+      <div class="titre-sec">Lecture des paroles</div>
+      <label for="taille" style="font-weight:400">Taille du texte : <b id="valTaille">${reglages.taille}</b></label>
+      <input type="range" id="taille" min="14" max="40" step="1" value="${reglages.taille}">
+      <p class="paroles">Exemple de paroles</p>
+      <label class="ligne-reglage">Afficher « Solo » / « Tous » <input type="checkbox" id="voix"${reglages.voix ? " checked" : ""}></label>
+      <div class="titre-sec">Données</div>
+      <button class="btn" data-action="viderHistorique">🕘 Effacer l'historique</button>
+      <p class="compte">Favoris, historique et réglages restent dans ce navigateur.</p></div>`;
+  },
+
+  apropos() {
+    return `${barre("À propos")}<div class="gouttiere corps centre">${logo(120).replace('class="logo"', 'class="logo" style="margin:8px auto 14px"')}
+      <h2 style="font-family:var(--f-titre);margin:0">Je suis KCCiste Cantique</h2>
+      <p style="color:var(--doux);margin:4px 0 16px">Version web d'essai · ${CANTIQUES.length} cantiques Kikongo et Lingala</p>
+      <p>Recueil numérique avec paroles, recherche, favoris, partage et corrections communautaires. L'application Android ajoute le lecteur audio, les téléchargements hors connexion, l'enregistrement de sa voix, le groupe de discussion et l'espace administrateur.</p>
+      <div class="titre-sec" style="justify-content:center">Copyright</div>
+      <p><b>© KCCISTE CANTIQUE — Je suis KCCiste</b><br>Conception : ${CONTACT.nom}</p>
+      <p style="color:var(--doux);font-size:14px">Cette signature concerne l'application. Les paroles restent la propriété de leurs auteurs.</p>
+      <p>WhatsApp : <span class="selectionnable">${CONTACT.tel}</span></p></div>`;
+  },
+};
+
+function listeResultats(res, avecLangue) {
+  if (!res.length) return vide("🔍", "Aucun résultat", "Essayez un autre numéro, un mot du titre ou des paroles.");
+  return `<p class="compte">${res.length} cantique(s)</p><ul class="liste">${res.slice(0, 400).map(r => ligneCantique(r.c, [avecLangue ? r.c.langueNom : "", r.extrait ? "« " + r.extrait.trim() + " »" : ""].filter(Boolean).join(" · "))).join("")}</ul>`;
+}
+function majResultats() {
+  const z = document.getElementById("resultats"); if (!z) return;
+  if (vue.nom === "bibliotheque") z.innerHTML = listeResultats(rechercher(vue.filtre || "", vue.langue || "lingala"), false);
+  if (vue.nom === "recherche") z.innerHTML = (vue.requete || "").trim()
+    ? listeResultats(rechercher(vue.requete, vue.langue || ""), true)
+    : vide("🔍", "Rechercher un cantique", "Par numéro (ex. 12), par titre ou par des mots des paroles. Les accents ne comptent pas.");
+}
+function majAllerA() {
+  const p = document.getElementById("trouve"); if (!p) return;
+  const n = parseInt(vue.numero, 10), l = vue.langue || "lingala";
+  const c = CANTIQUES.find(x => x.langue === l && x.numero === n);
+  p.textContent = !vue.numero ? " " : c ? c.titre : `Aucun cantique ${l === "lingala" ? "Lingala" : "Kikongo"} n° ${vue.numero}`;
+  p.style.color = vue.numero && !c ? "var(--danger)" : "";
+}
+
+function dessiner(haut) {
+  document.getElementById("app").innerHTML = `<div class="vue">${VUES[vue.nom]()}</div>`;
+  majResultats(); majAllerA();
+  if (haut) window.scrollTo(0, 0);
+  const f = document.getElementById("requete") || (vue.nom === "allerA" && document.getElementById("numero"));
+  if (f && haut) f.focus();
+}
+
+function ouvrir(id, remplacer) {
+  historique = [id, ...historique.filter(x => x !== id)].slice(0, 50);
+  memoire.ecrire("historique", historique);
+  if (remplacer) { vue = { nom: "cantique", id }; dessiner(true); } else aller("cantique", { id });
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("button, [data-ouvrir]"); if (!b) return;
+  const d = b.dataset;
+  if (d.ouvrir) return ouvrir(d.ouvrir);
+  if (d.ouvrirRemplace) return ouvrir(d.ouvrirRemplace, true);
+  if (d.aller) {
+    const p = {};
+    if (d.langue) p.langue = d.langue;
+    if (d.aller === "partage" || d.aller === "correction") p.id = d.id || vue.id;
+    return aller(d.aller, p);
+  }
+  if (d.langueOnglet) { vue.langue = d.langueOnglet; return dessiner(); }
+  if (d.filtreLangue !== undefined) { vue.langue = d.filtreLangue; return dessiner(); }
+  if (d.alleraLangue) { vue.langue = d.alleraLangue; return dessiner(); }
+  if (d.trad !== undefined) { vue.trad = d.trad; return dessiner(); }
+  const c = parId[vue.id];
+  switch (d.action) {
+    case "retour": return retour();
+    case "favori":
+      favoris = favoris.includes(c.id) ? favoris.filter(x => x !== c.id) : [c.id, ...favoris];
+      memoire.ecrire("favoris", favoris); toast(favoris.includes(c.id) ? "Ajouté aux favoris" : "Retiré des favoris"); return dessiner();
+    case "moins": reglages.taille = Math.max(14, reglages.taille - 2); appliquerReglages(); return;
+    case "plus": reglages.taille = Math.min(40, reglages.taille + 2); appliquerReglages(); return;
+    case "plein": vue.plein = true; dessiner(true); try { document.documentElement.requestFullscreen?.().catch(() => {}); } catch {} return;
+    case "sortirPlein": vue.plein = false; try { if (document.fullscreenElement) document.exitFullscreen(); } catch {} return dessiner();
+    case "copier": return copier(texteAPartager(c), "Paroles copiées");
+    case "copierPartage": return copier(texteAPartager(c), "Paroles copiées avec la signature");
+    case "viderHistorique": historique = []; memoire.ecrire("historique", []); toast("Historique effacé"); return dessiner();
+    case "ouvrirNumero": {
+      const x = CANTIQUES.find(y => y.langue === (vue.langue || "lingala") && y.numero === parseInt(vue.numero, 10));
+      if (x) { vue = pile.pop() || { nom: "accueil" }; ouvrir(x.id); } return;
+    }
+    case "envoyerCorrection": {
+      const idx = vue.index ?? 0;
+      const actuel = idx < 0 ? c.titre : c.strophes[idx].texte;
+      const prop = document.getElementById("propose").value.trim(), expl = document.getElementById("explication").value.trim();
+      if (!prop || prop === actuel.trim()) { toast("Modifiez le texte avant d'envoyer la correction"); return; }
+      const msg = `${CONTACT.message}\nMotif : Correction de cantique\n\nCantique ${c.langueNom} n° ${c.numero} « ${c.titre} »\n${idx < 0 ? "Titre" : "Strophe " + (idx + 1)}\nTexte actuel : ${actuel}\nCorrection : ${prop}${expl ? "\nExplication : " + expl : ""}`;
+      copier(msg, "Correction copiée");
+      const a = document.createElement("a"); a.href = `https://wa.me/${CONTACT.wa}?text=${encodeURIComponent(msg)}`; a.target = "_blank"; a.rel = "noopener"; document.body.appendChild(a); a.click(); a.remove();
+      return;
+    }
+  }
+});
+document.addEventListener("input", e => {
+  const t = e.target;
+  if (t.id === "filtre") { vue.filtre = t.value; majResultats(); }
+  if (t.id === "requete") { vue.requete = t.value; majResultats(); }
+  if (t.id === "numero") { vue.numero = t.value.replace(/\D/g, "").slice(0, 4); t.value = vue.numero; majAllerA(); }
+  if (t.id === "taille") { reglages.taille = +t.value; document.getElementById("valTaille").textContent = t.value; appliquerReglages(); }
+});
+document.addEventListener("change", e => {
+  const t = e.target;
+  if (t.name === "theme") { reglages.theme = t.value; appliquerReglages(); }
+  if (t.name === "motif") { vue.motif = t.value; dessiner(); }
+  if (t.id === "voix") { reglages.voix = t.checked; appliquerReglages(); }
+  if (t.id === "ligneConcernee") { vue.index = +t.value; dessiner(); }
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Enter" && e.target.id === "numero") document.querySelector('[data-action="ouvrirNumero"]').click();
+  if (e.key === "Escape" && vue.plein) { vue.plein = false; dessiner(); }
+});
+
+appliquerReglages();
+dessiner();
+</script>
