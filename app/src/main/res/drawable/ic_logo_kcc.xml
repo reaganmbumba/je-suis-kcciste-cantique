@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo KCC : lettres majuscules dorées dans un cercle doré, sur fond blanc (fond fourni par l'icône adaptative). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Cercle -->
+    <path android:strokeColor="#C9A227" android:strokeWidth="3.2" android:fillColor="#00000000"
+        android:pathData="M54,24 A30,30 0 1 1 53.99,24 Z" />
+    <!-- K -->
+    <path android:strokeColor="#C9A227" android:strokeWidth="3.4" android:strokeLineCap="square" android:fillColor="#00000000"
+        android:pathData="M36,44 L36,64 M45.5,44 L37.5,54 M40,51.5 L46,64" />
+    <!-- C -->
+    <path android:strokeColor="#C9A227" android:strokeWidth="3.4" android:strokeLineCap="butt" android:fillColor="#00000000"
+        android:pathData="M59.5,47 A6,10 0 1 0 59.5,61" />
+    <!-- C -->
+    <path android:strokeColor="#C9A227" android:strokeWidth="3.4" android:strokeLineCap="butt" android:fillColor="#00000000"
+        android:pathData="M73.5,47 A6,10 0 1 0 73.5,61" />
+</vector>

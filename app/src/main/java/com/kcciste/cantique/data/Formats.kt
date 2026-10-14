@@ -72,7 +72,7 @@ object Formats {
         Durée : $duree
 
         Enregistrement réalisé depuis l'application
-        KCCiste Cantique.
+        Je suis KCCiste Cantique.
 
         Merci.
         """.trimIndent()

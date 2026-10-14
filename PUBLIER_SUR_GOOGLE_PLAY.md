@@ -1,4 +1,4 @@
-# Publier KCCiste Cantique sur Google Play
+# Publier Je suis KCCiste Cantique sur Google Play
 
 Le chemin complet : **dossier du projet → GitHub → fichier .aab signé → Google Play Console.**
 Comptez une soirée pour les étapes 1 à 4, puis les délais de validation de Google.
@@ -71,7 +71,7 @@ Le numéro de version (`versionCode`) augmente tout seul à chaque compilation, 
 ## Étape 5 — Google Play Console
 
 1. **Compte développeur** : https://play.google.com/console (frais uniques de 25 USD, pièce d'identité demandée).
-2. **Créer une application** : nom *KCCiste Cantique*, langue par défaut *Français*, *Application*, *Gratuite*.
+2. **Créer une application** : nom *Je suis KCCiste Cantique*, langue par défaut *Français*, *Application*, *Gratuite*.
 3. **Fiche Play Store** : description courte et longue, icône 512×512 px, image de présentation 1024×500 px,
    au moins 2 captures d'écran du téléphone.
 4. **Contenu de l'application** (obligatoire) :

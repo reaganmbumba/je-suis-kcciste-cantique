@@ -1,0 +1,30 @@
+rules_version = '2';
+// Règles de sécurité Cloud Storage de Je suis KCCiste Cantique.
+// À copier dans la console Firebase › Storage › Règles › Publier.
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function estAdmin() {
+      return request.auth != null && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && firestore.exists(/databases/(default)/documents/admins/$(request.auth.uid));
+    }
+
+    // Audios officiels des cantiques : écoute et téléchargement pour tous, dépôt par l'administration.
+    match /audios/{cantiqueId}/{fichier} {
+      allow read: if true;
+      allow write: if estAdmin()
+        && request.resource.size <= 50 * 1024 * 1024
+        && request.resource.contentType.matches('audio/.*');
+      allow delete: if estAdmin();
+    }
+
+    // Messages vocaux des suggestions : privés, lisibles seulement par l'administration.
+    match /suggestions/{uid}/{fichier} {
+      allow create: if request.auth != null && request.auth.uid == uid
+        && request.resource.size <= 10 * 1024 * 1024
+        && request.resource.contentType.matches('audio/.*');
+      allow read, delete: if estAdmin();
+      allow update: if false;
+    }
+  }
+}

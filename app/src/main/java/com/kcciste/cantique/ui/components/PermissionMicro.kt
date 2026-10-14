@@ -85,7 +85,7 @@ fun rememberPermissionMicro(onRefus: () -> Unit): PermissionMicro {
             text = {
                 Text(
                     "L'autorisation du microphone a été refusée. Pour enregistrer, autorisez le micro " +
-                        "dans les paramètres Android de KCCiste Cantique.",
+                        "dans les paramètres Android de Je suis KCCiste Cantique.",
                 )
             },
             dismissButton = { TextButton(onClick = { etat.dialogue = null }) { Text("ANNULER") } },

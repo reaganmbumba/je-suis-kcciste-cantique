@@ -66,7 +66,7 @@ object Partage {
             type = MIME_AUDIO
             putExtra(Intent.EXTRA_STREAM, u)
             putExtra(Intent.EXTRA_TEXT, message)
-            putExtra(Intent.EXTRA_SUBJECT, "Enregistrement KCCiste Cantique")
+            putExtra(Intent.EXTRA_SUBJECT, "Enregistrement Je suis KCCiste Cantique")
             clipData = ClipData.newUri(context.contentResolver, fichier.name, u)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }

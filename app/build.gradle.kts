@@ -20,7 +20,7 @@ android {
         targetSdk = 36
         // Sur GitHub, chaque build reçoit un numéro de version croissant (exigé par Google Play).
         versionCode = System.getenv("VERSION_CODE")?.toIntOrNull() ?: 1
-        versionName = System.getenv("VERSION_NAME") ?: "1.0.0"
+        versionName = System.getenv("VERSION_NAME") ?: "2.0.0"
 
         // Réglages administrateur : modifiables ici avant chaque compilation.
         // Durée maximale d'un enregistrement, en secondes (10 minutes par défaut).
@@ -77,9 +77,17 @@ dependencies {
     implementation("androidx.compose.material:material-icons-core")
     debugImplementation("androidx.compose.ui:ui-tooling")
 
+    // Lecteur audio : lecture en arrière-plan, notification, écran de verrouillage
+    implementation("androidx.media3:media3-exoplayer:1.5.1")
+    implementation("androidx.media3:media3-session:1.5.1")
+
     implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-storage")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
 
     testImplementation("junit:junit:4.13.2")
+    // org.json réel pour tester la lecture des cantiques hors Android
+    testImplementation("org.json:json:20240303")
 }

@@ -1,13 +1,75 @@
 rules_version = '2';
-// Règles de sécurité Firestore pour la discussion de groupe KCCiste.
+// Règles de sécurité Firestore de Je suis KCCiste Cantique.
 // À copier dans la console Firebase › Firestore Database › Règles › Publier.
+// Principe : tout le monde lit le recueil ; seuls les administrateurs (document admins/{uid})
+// modifient le contenu officiel ; chacun peut envoyer une suggestion, jamais la publier.
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    function connecte() { return request.auth != null; }
+    function estAdmin() {
+      return connecte() && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    // Liste des administrateurs : créée à la main dans la console, jamais depuis l'application.
+    match /admins/{uid} {
+      allow read: if connecte() && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    // Recueil officiel et historique des versions.
+    match /cantiques/{id} {
+      allow read: if true;
+      allow create, update: if estAdmin()
+        && request.resource.data.titre is string && request.resource.data.titre.size() > 0
+        && request.resource.data.numero is int
+        && request.resource.data.version is int
+        && request.resource.data.strophes is list;
+      // On ne supprime pas un cantique : on publie une nouvelle version.
+      allow delete: if false;
+
+      match /versions/{version} {
+        allow read: if estAdmin();
+        allow create: if estAdmin();
+        // Les anciennes versions ne sont jamais modifiées ni effacées.
+        allow update, delete: if false;
+      }
+    }
+
+    // Suggestions de correction.
+    match /suggestions/{id} {
+      allow create: if connecte()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.statut == 'EN_ATTENTE'
+        && request.resource.data.reference == id
+        && request.resource.data.cantiqueId is string
+        && request.resource.data.correction is string && request.resource.data.correction.size() <= 4000
+        && request.resource.data.explication is string && request.resource.data.explication.size() <= 2000
+        && request.resource.data.nom is string && request.resource.data.nom.size() <= 60
+        && request.resource.data.cheminAudio is string
+        && (request.resource.data.cheminAudio == ''
+            || request.resource.data.cheminAudio.matches('suggestions/' + request.auth.uid + '/.*'))
+        && request.resource.data.date == request.time;
+      // L'auteur peut relire sa suggestion ; l'administration lit et change le statut.
+      allow read: if estAdmin() || (connecte() && resource.data.uid == request.auth.uid);
+      allow update: if estAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['statut', 'noteAdmin', 'traitePar', 'traiteLe'])
+        && request.resource.data.statut in ['EN_ATTENTE', 'EN_EXAMEN', 'ACCEPTEE', 'REFUSEE', 'PUBLIEE'];
+      allow delete: if false;
+    }
+
+    // Journal des actions administratives : ajout seulement.
+    match /journal/{id} {
+      allow read: if estAdmin();
+      allow create: if estAdmin() && request.resource.data.admin is string;
+      allow update, delete: if false;
+    }
+
+    // Discussion de groupe (inchangé).
     match /groupes/general/messages/{id} {
-      // Seuls les utilisateurs de l'application (connectés) lisent les messages.
-      allow read: if request.auth != null;
-      // On écrit uniquement sous son propre identifiant, avec un texte et un nom de taille raisonnable.
-      allow create: if request.auth != null
+      allow read: if connecte();
+      allow create: if connecte()
         && request.resource.data.keys().hasOnly(['texte', 'nom', 'uid', 'date'])
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.texte is string
@@ -15,9 +77,8 @@ service cloud.firestore {
         && request.resource.data.nom is string
         && request.resource.data.nom.size() > 0 && request.resource.data.nom.size() <= 40
         && request.resource.data.date == request.time;
-      // Personne ne modifie un message ; chacun peut supprimer les siens.
       allow update: if false;
-      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow delete: if connecte() && (resource.data.uid == request.auth.uid || estAdmin());
     }
   }
 }

@@ -6,6 +6,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -13,6 +14,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -34,6 +37,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kcciste.cantique.data.Createur
@@ -41,26 +45,33 @@ import com.kcciste.cantique.share.Partage
 import com.kcciste.cantique.ui.theme.Bleu
 import com.kcciste.cantique.ui.theme.BleuClair
 import com.kcciste.cantique.ui.theme.Gris
+import com.kcciste.cantique.ui.theme.Or
 import com.kcciste.cantique.ui.theme.VertWhatsApp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Barre(titre: String, retour: (() -> Unit)?) {
-    TopAppBar(
-        title = { Text(titre, fontWeight = FontWeight.Bold) },
-        navigationIcon = {
-            if (retour != null) {
-                IconButton(onClick = retour) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Retour")
+fun Barre(titre: String, retour: (() -> Unit)?, actions: @Composable RowScope.() -> Unit = {}) {
+    Column {
+        TopAppBar(
+            title = { Text(titre, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis) },
+            navigationIcon = {
+                if (retour != null) {
+                    IconButton(onClick = retour) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Retour")
+                    }
                 }
-            }
-        },
-        colors = TopAppBarDefaults.topAppBarColors(
-            containerColor = Bleu,
-            titleContentColor = Color.White,
-            navigationIconContentColor = Color.White,
-        ),
-    )
+            },
+            actions = actions,
+            colors = TopAppBarDefaults.topAppBarColors(
+                containerColor = MaterialTheme.colorScheme.surface,
+                titleContentColor = MaterialTheme.colorScheme.onSurface,
+                navigationIconContentColor = MaterialTheme.colorScheme.onSurface,
+                actionIconContentColor = MaterialTheme.colorScheme.onSurface,
+            ),
+        )
+        // Fin filet doré sous la barre : l'accent de l'identité KCCISTE CANTIQUE.
+        HorizontalDivider(thickness = 1.dp, color = Or.copy(alpha = 0.6f))
+    }
 }
 
 /** Bouton large et très visible. */

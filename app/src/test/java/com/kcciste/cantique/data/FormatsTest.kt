@@ -55,7 +55,7 @@ class FormatsTest {
         assertTrue(m.contains("🎵 Abalayama mosali na Yawe"))
         assertTrue(m.contains("Langue : Lingala"))
         assertTrue(m.contains("Durée : 03:42"))
-        assertTrue(m.contains("KCCiste Cantique."))
+        assertTrue(m.contains("Je suis KCCiste Cantique."))
         assertTrue(m.trimEnd().endsWith("Merci."))
     }
 
