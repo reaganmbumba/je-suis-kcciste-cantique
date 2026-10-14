@@ -1,0 +1,23 @@
+rules_version = '2';
+// Règles de sécurité Firestore pour la discussion de groupe KCCiste.
+// À copier dans la console Firebase › Firestore Database › Règles › Publier.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /groupes/general/messages/{id} {
+      // Seuls les utilisateurs de l'application (connectés) lisent les messages.
+      allow read: if request.auth != null;
+      // On écrit uniquement sous son propre identifiant, avec un texte et un nom de taille raisonnable.
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['texte', 'nom', 'uid', 'date'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.texte is string
+        && request.resource.data.texte.size() > 0 && request.resource.data.texte.size() <= 1000
+        && request.resource.data.nom is string
+        && request.resource.data.nom.size() > 0 && request.resource.data.nom.size() <= 40
+        && request.resource.data.date == request.time;
+      // Personne ne modifie un message ; chacun peut supprimer les siens.
+      allow update: if false;
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+  }
+}

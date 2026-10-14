@@ -1,0 +1,4508 @@
+[
+{
+"numero": 1,
+"titre": "Bankaka beti banzila KCC inki",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bankaka beti banzila KCC inki"
+},
+{
+"voix": "Tous",
+"texte": "Diau i Dilongi dia mbote dia mpa"
+},
+{
+"voix": "Solo",
+"texte": "E tata vibidile e, vibidile e e e"
+},
+{
+"voix": "Tous",
+"texte": "Yave wuna senda babo bana nunganza"
+},
+{
+"voix": "Solo",
+"texte": "Bankaka beti banzila vo sielo inki"
+},
+{
+"voix": "Tous",
+"texte": "Kiau i kisadi kia solua kua Yave"
+},
+{
+"voix": "Solo",
+"texte": "Bankaka beti banzila bulungi inki"
+},
+{
+"voix": "Tous",
+"texte": "Kiau i buloko bua nsuka kua nge"
+}
+]
+},
+{
+"numero": 2,
+"titre": "Bankaka beti sadila yave mu bikoba",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bankaka beti sadila Yave mu bikoba"
+},
+{
+"voix": "Tous",
+"texte": "Kansi muna ntima mansueki mena"
+},
+{
+"voix": "Solo",
+"texte": "Ngeye sambidi wo"
+},
+{
+"voix": "Tous",
+"texte": "Wena minu kia luse\nNgeye sambidi wo\nWena minu kia luse\nKansi muna ntima mansueki mena"
+}
+]
+},
+{
+"numero": 3,
+"titre": "Bantu banza bazolele kimfumu",
+"strophes": [
+{
+"voix": "",
+"texte": "Bantu banza bazolele kimfumu\nKansi zulu kabana kota ko\nBau babenzi vo bau i zimfumu\nKansi Nzambi ka bazeyi ko"
+},
+{
+"voix": "",
+"texte": "Bua ntima a a\nBua ntima, bua ntima\nBanduenga bazeyi ko\nKansi beno luzeyi dio"
+},
+{
+"voix": "",
+"texte": "Mvula zingi va ntoto zeti noka\nKansi mbongo kazi menene ko\nBa bisadi ba vovele mu mbanza\nKansi mbanza kayibazeyi ko"
+},
+{
+"voix": "",
+"texte": "Ba lukembi vo beno luma zoba\nKansi Nzambi kakuluniengi ko\nSambileno mu vuvu kia mazulu\nKadi beno si luakota mo"
+},
+{
+"voix": "",
+"texte": "Bantu babo bazolele mo kota\nBana kala nkadulu ya nsua\nBonso beno luvengi dia lunungu\nKalulendi mo kakudukua ko"
+}
+]
+},
+{
+"numero": 4,
+"titre": "Beno lueti zieta mu minzanza",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Beno lueti zieta mu minzanza"
+},
+{
+"voix": "Tous",
+"texte": "Mu diambu diami lueti tovuka\nMpasi ye zinzungu ngiena yeno\nMu samuna kimbangi kia Yavef"
+},
+{
+"voix": "Solo",
+"texte": "Lusila kaka mono Yave vuvu"
+},
+{
+"voix": "Tous",
+"texte": "Lusila kaka mono Yave minu\nMu zimpasi ye nzungu ngiena yeno\nKadi mono Nzambi’eno\nMu zimpasi ye nzungu ngiena yeno\nKadi mono Mvuluzi’eno"
+},
+{
+"voix": "Solo",
+"texte": "Diambu diasikua ye dia nkinzi"
+},
+{
+"voix": "Tous",
+"texte": "Lubanzila bunlongo bua Yave\nLendo andi yina kala yeno\nmu samuna kimbangi kia Yave"
+}
+]
+},
+{
+"numero": 5,
+"titre": "Yave uvananga bana",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bu ibazanga bonso Yave uvananga"
+},
+{
+"voix": "Tous",
+"texte": "Bimbana mbana mu bundu edi dia nlongo Kiese kiami kialunga bu i talanga bio Yave Nzambi weti bio sakumuna"
+},
+{
+"voix": "Solo",
+"texte": "Kalukakidilandi bimbana mbana ko"
+},
+{
+"voix": "Tous",
+"texte": "Kadi kimfumu kia mazulu i kiau\nBeno mpe lufuanana ye bimbana mbana\nSiluakota mu nkembo a dizulu"
+}
+]
+},
+{
+"numero": 6,
+"titre": "Bundu dia yave dia nsilulu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bundu dia Yave dia nsilulu"
+},
+{
+"voix": "Tous",
+"texte": "Dina samuna kua makanda mamo\nMambu ma Yave dizayikisa\nBonso buena kedika"
+},
+{
+"voix": "Solo",
+"texte": "Bonso buasonama mu nkanda wa moyo"
+},
+{
+"voix": "Tous",
+"texte": "Eh KCC monekene\nBonso buavovua kua mimbikudi\nEh KCC monekene"
+},
+{
+"voix": "Solo",
+"texte": "Dizolele, Dizolele unzolele"
+},
+{
+"voix": "Tous",
+"texte": "Wenda dikila mameme mami"
+},
+{
+"voix": "Solo",
+"texte": "Sielo, sielo unzolele"
+},
+{
+"voix": "Tous",
+"texte": "Wenda dikila mameme mami"
+},
+{
+"voix": "Solo",
+"texte": "Nlongi, nlongi unzolele"
+},
+{
+"voix": "Tous",
+"texte": "Wenda dikila mameme mami"
+}
+]
+},
+{
+"numero": 7,
+"titre": "Bundu dia zintumua tusaleno o",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bundu dia zintumua tusaleno o"
+},
+{
+"voix": "Tous",
+"texte": "Bundu dia zintumua tusaleno\nTusaleno o babonsono o\nNsendo waunene mu zulu dia Yave\nTusaleno o nsendua tuna nsendua"
+},
+{
+"voix": "Solo",
+"texte": "Tuvaneno babo mvuilu zeto kua Yave"
+},
+{
+"voix": "Tous",
+"texte": "Pepa tuna pepa mu zulu dia Yave\nVuanda tuna vuanda mu zulu dia Yave\nDenda tuna denda mu zulu dia Yave\nNsendo wa moyo tuna tambula"
+}
+]
+},
+{
+"numero": 8,
+"titre": "Butuena moyo vava nza yayi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Bu tuena moyo vava nza yayi"
+},
+{
+"voix": "Tous",
+"texte": "Tuna yimbila mu sika Yave"
+},
+{
+"voix": "Solo",
+"texte": "Oh tuna yimbila"
+},
+{
+"voix": "Tous",
+"texte": "Oh oh tuna yimbidila Yave\nOh oh mu ntangu zazo\nOh oh mayangi mana kala yeto\nButuna luaka kuena Yave"
+}
+]
+},
+{
+"numero": 9,
+"titre": "Butu kondolo nzaya nsukulu a zingu kieto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Butu kondolo zaya nsukulu a zingu kieto"
+},
+{
+"voix": "Tous",
+"texte": "Tukaya meso tubanlongo"
+},
+{
+"voix": "Solo",
+"texte": "Tukubama,"
+},
+{
+"voix": "Tous",
+"texte": "Babonsono"
+},
+{
+"voix": "Solo",
+"texte": "Tukubama,"
+},
+{
+"voix": "Tous",
+"texte": "Tutoma luenga\nButu kondolo zaya nsukulu a zingu kieto\nO tuluenga babonsono."
+},
+{
+"voix": "Solo",
+"texte": "O mayangi manakala kua bana nunga"
+},
+{
+"voix": "Tous",
+"texte": "Tukaya meso, tubanlongo\nKiadi kina kala vo losolo ku mbungulu\nTukaya meso tubanlongo."
+}
+]
+},
+{
+"numero": 10,
+"titre": "Butu kuizanga ntangu ka ntangu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Butu kuizanga ntangu ka ntangu"
+},
+{
+"voix": "Tous",
+"texte": "Mu nzo yayi ya nlongo ya Yave\nTuena vuvu vo yandi kibeni\nMuna nzo katekele"
+},
+{
+"voix": "Solo",
+"texte": "O yandi tekele"
+},
+{
+"voix": "Tous",
+"texte": "O o yandi tekele\nTuena vuvu vo yandi kibeni\nMuna nzo katekele"
+}
+]
+},
+{
+"numero": 11,
+"titre": "Bu uvuezanga nge u muana Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Bu uvuezanga nge u muana Nzambi\nBu uvuezanga nge u muana Nzambi\nBu uvuezanga nge u muana Nzambi\nTumbu kia mvu ya mvu unabaka"
+},
+{
+"voix": "",
+"texte": "Bu ukelanga\nBu ufinganga"
+},
+{
+"voix": "",
+"texte": "bu yazietelenge mu nzanza"
+},
+{
+"voix": "Solo",
+"texte": "Bu yazietelenge mu nzanza"
+},
+{
+"voix": "Tous",
+"texte": "Yawilu mbila ya mbokele\nBuna mono mpe yavutula\nInga nzolele kusadila"
+},
+{
+"voix": "Solo",
+"texte": "Lunda kimbangi kio"
+},
+{
+"voix": "Tous",
+"texte": "Buwena muan’ami\nNtangu zazonsono\nZimeni lungulua"
+},
+{
+"voix": "Solo",
+"texte": "Kani mu mpasi mpe"
+},
+{
+"voix": "Tous",
+"texte": "Buwena muan’ami\nNtangu zazonsono\nZimeni lungulua"
+},
+{
+"voix": "Solo",
+"texte": "Buyakala mu nzila mambi"
+},
+{
+"voix": "Tous",
+"texte": "Kiazaya nlemvo a Yave ko\nKansi buabu mbueni kiya kio\nMvutudi matondo mu mamo"
+}
+]
+},
+{
+"numero": 12,
+"titre": "Bu weti vayika mu nzo a Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Buweti vayika mu nzo a Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Malulongolo si mazimbala"
+},
+{
+"voix": "Solo",
+"texte": "O ngeye"
+},
+{
+"voix": "Tous",
+"texte": "Nki biobio weti sala\nNkia ndandu una tambula"
+}
+]
+},
+{
+"numero": 13,
+"titre": "Danieli mu luka a zinkosi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Danieli mu luka a zinkosi"
+},
+{
+"voix": "Tous",
+"texte": "Zinkosi zalembana kundia\nNzambi wakala ye Danieli\nNzambi wena te ye buabu"
+},
+{
+"voix": "Solo",
+"texte": "Nzambi wena teye buabu"
+},
+{
+"voix": "Tous",
+"texte": "Nzambi ya banlongo babo\nNzambi ya baleka minu\nNzambi wena teye buabu"
+},
+{
+"voix": "",
+"texte": "Nzambi yavukisa Danieli\nNzambi wena te ye buabu"
+},
+{
+"voix": "",
+"texte": "Nzambi yabokila Dizolele\nNzambi wena te ye buabu"
+},
+{
+"voix": "",
+"texte": "Nzambi yisadisanga banlongo\nNzambi wena te ye buabu"
+}
+]
+},
+{
+"numero": 14,
+"titre": "Do nkundi ami toma tala",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Do nkundi ami toma tala"
+},
+{
+"voix": "Tous",
+"texte": "Katula keti keti\nDo katula wonga mu ntima aku\nKala kibakala"
+},
+{
+"voix": "Solo",
+"texte": "O Yave Nzambi intu muna mvita zazo"
+},
+{
+"voix": "Tous",
+"texte": "O o yandi i Mvuluzi eto\nTuleketi minu muna nsilulu andi vo\nKana kutusisa ko"
+}
+]
+},
+{
+"numero": 15,
+"titre": "E mfumu nge i nto ya moyo wa mvu ya mvu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E Mfumu nge i nto ya moyo wa mvu\nya mvu"
+},
+{
+"voix": "Tous",
+"texte": "Umpana nlangu’aku wamoyo ya nua\nYe kina mona diaka mpuila ko\nYe nzinunu a biabionso bia nza"
+}
+]
+},
+{
+"numero": 16,
+"titre": "E mfumu tueti kuenda mu samuna",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E Mfumu tueti kuenda mu samuna"
+},
+{
+"voix": "Tous",
+"texte": "Nsamu wambote kua makanda mamonsono\nTueti kuenda tueti lomba Mfumu do\nKala yeto mu kintumua tutumunu"
+},
+{
+"voix": "Solo",
+"texte": "Katulendi vanga diambu ko Mfumu"
+},
+{
+"voix": "Tous",
+"texte": "Vo ngeye kondolo"
+},
+{
+"voix": "Solo",
+"texte": "Mu ngeye mu suemi ngolo ye lulendo"
+},
+{
+"voix": "Tous",
+"texte": "Tulenda sadila, ngeye kaka Mfumu i ngolo zeto.\nO o ngeye kaka Mfumu i ngolo zeto"
+},
+{
+"voix": "Solo",
+"texte": "Vumusa bundu diaku u Mfumu do"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi vo tuna kala moyo mu Mpeve aku\nTueti zola vo tua tungua kua nge Yave\nMpasi vo tuna toma fuana mukusadila"
+}
+]
+},
+{
+"numero": 17,
+"titre": "E yave nge i Nzambi eto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E Yave nge i Nzambi eto o o"
+},
+{
+"voix": "Tous",
+"texte": "Lumbu’eki tuizidi babonso\nMu kembisa ngeye Nzambi’eto o o\nO Yave utu sadisa babo\nO Yave bika wasikua"
+}
+]
+},
+{
+"numero": 18,
+"titre": "E nkundi tuenda ku nzo a Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E nkundi tuenda ku nzo a Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Tuatambula mambu ma Yave\nMambu ma Yave madia ma moyo\nMavelelesa ntima mieto\nMambu ma yave madia ma moyo\nMavelelesa ntima mieto."
+}
+]
+},
+{
+"numero": 19,
+"titre": "E yave Nzambi undoluka kuami",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E Yave Nzambi undoluka kuami"
+},
+{
+"voix": "Tous",
+"texte": "Mu mamonso maya volele\nE Yava Nzambi undoluka kuami\nBu nzolele kusadila"
+},
+{
+"voix": "Solo",
+"texte": "Ya sumuka nguilu mboka kua nge"
+},
+{
+"voix": "Tous",
+"texte": "Se nzolele kidi yasukulua\nMu mambi mamo mayateka vanga\nSe nzolele kusadila"
+}
+]
+},
+{
+"numero": 20,
+"titre": "E yave Nzambi a mvu ya mvu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E Yave Nzambi a mvu ya mvu"
+},
+{
+"voix": "Tous",
+"texte": "Wavanga mpe biabionsono\nWanlongo ye wanlongo kena\nKasakununuanga kutu ko"
+},
+{
+"voix": "Solo",
+"texte": "Beto mpe tunzomina bulongo"
+},
+{
+"voix": "Tous",
+"texte": "Kadi Yave wanlongo kena\nBakunsadilanga mpe banlongo\nBonso yandi wanlongo kena"
+},
+{
+"voix": "Solo",
+"texte": "E Yave Nzambi a Mpungu"
+},
+{
+"voix": "Tous",
+"texte": "Yandi kaka fueni zitusua\nYandi kaka fueti sambulua\nKasakununuanga kutu ko."
+}
+]
+},
+{
+"numero": 21,
+"titre": "E zola e zola e zola",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E zola, zola, zola"
+},
+{
+"voix": "Tous",
+"texte": "E zola, zola, zola\nE zola,zola, zola\nNate tuna monana"
+},
+{
+"voix": "Solo",
+"texte": "E Yave unkudikila zola"
+},
+{
+"voix": "Tous",
+"texte": "E Yave unkudikila zola\nE Yave unkudikila zola\nNateye tuna monana"
+}
+]
+},
+{
+"numero": 22,
+"titre": "Fikamba kamba kukalani wonga ko",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Fikamba kamba kukalani wonga ko"
+},
+{
+"voix": "Tous",
+"texte": "Kadi nzolakani a Yave\nI mukuluvana kimfumu\nI mu diodio butomene mu vibidila\nMu mamonsono malu lunguluanga"
+},
+{
+"voix": "Solo",
+"texte": "Lolo i luzolo lua Nzambi eto"
+},
+{
+"voix": "Tous",
+"texte": "Lolo i luzolo lua Mfumu Yave\nI luzolo luena lua Nzambi eto\nI mukutu vana kimfumu."
+}
+]
+},
+{
+"numero": 23,
+"titre": "Ibokanga ntangu zazo mono Nzambi eno",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ibokanga ntangu zazo mono Nzambi’eno"
+},
+{
+"voix": "Tous",
+"texte": "Masumu vonda ma vondanga\nKiadi ye nkenda mu tala miela mieti fua\nLuvengama mu mambi"
+},
+{
+"voix": "Solo",
+"texte": "Lutina nsumukunu zazonsono"
+},
+{
+"voix": "Tous",
+"texte": "Masumu manatanga ku mbungulu\nLuwa ndinga ya mono Nzambi eno\nMasumu manatanga ku mbungulu\nLutina mo ntangu zazo"
+}
+]
+},
+{
+"numero": 24,
+"titre": "I nsisi beni mu bua mu moko ma yave Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "I nsisi beni mu bua mu moko ma Yave\nNzambi"
+},
+{
+"voix": "Tous",
+"texte": "Kadi buena nkinzi mu vibidila\nMu mpasi zazonsono ye ntotolo\nMono siyavanga luzolo lua Nzambi ami\nMpasi yatambula moyo a mvu ya mvu"
+},
+{
+"voix": "Solo",
+"texte": "Kadi buena nkinzi mu vibidila"
+},
+{
+"voix": "Tous",
+"texte": "Mu mpasi zazonsono ye ntotolo\nMono siyavanga luzolo lua Nzambi ami\nMpasi yatambula moyo a mvu ya mvu"
+}
+]
+},
+{
+"numero": 25,
+"titre": "I yave Nzambi mvungi wakedika",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "I Yave Nzambi Mvungi wakedika"
+},
+{
+"voix": "Tous",
+"texte": "I Nzambi a nlongo wena walembama\nMavanga mandi mena ma mpulusu\nYave Nzambi i Mvungi ami wabiza\nMayindu mandi mpulusu a muel’ami\nYave Nzambi i Mvungi ami"
+},
+{
+"voix": "Solo",
+"texte": "Mu bundu dia Yave nani i Mvungi’ami"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi Mvangi ami i Mvungi’ami\nMayindu mandi mpulusu a muel’ami\nYave Nzambi i Mfumu’ami wabiza\nMayindu mandi mpulusu a muel’ami\nYave Nzambi i Mfumu’ami"
+},
+{
+"voix": "Solo",
+"texte": "Mu kamba diambi nlongi i satana"
+},
+{
+"voix": "Tous",
+"texte": "I mbeni yambi wazala bunkita\nMavanga mandi nzila ya mbungulu\nYave Nzambi i Mvungi’ami"
+}
+]
+},
+{
+"numero": 26,
+"titre": "Kabu dia baleka minu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kabu dia baleka minu"
+},
+{
+"voix": "Tous",
+"texte": "Luvana fulu kieno kua Yave\nYandi sika sala mu beno\nLubombidila kua\nYandi\nKadi wena Se kua beno"
+},
+{
+"voix": "Solo",
+"texte": "E bundu dia KCC"
+},
+{
+"voix": "Tous",
+"texte": "Luzola dio ye sadisanga\nMono yalu solele musadisanga\nBundu dia KCC ntangu zazo"
+}
+]
+},
+{
+"numero": 27,
+"titre": "Kala mayindu mu nlemvo yave wena kua nge",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kala mayindu mu nlemvo a Yave wena\nkua nge"
+},
+{
+"voix": "Tous",
+"texte": "Ngeye wameni solua kua Yave\nKala mayindu mu nlemvo a Yave wena\nkua nge Buka zolele kuvana moyo"
+},
+{
+"voix": "Solo",
+"texte": "Mambu ma Nzambi i kia kua bantu"
+},
+{
+"voix": "Tous",
+"texte": "Matuaveno kua Yave mu nlemvo\nKedika kiandi tusimba nade\nMpasi tuatoma mu miela mieto"
+}
+]
+},
+{
+"numero": 28,
+"titre": "Kia teka zaya masumu ko",
+"strophes": [
+{
+"voix": "",
+"texte": "Kiateka zaya masumu ko\nEh Tata utubanzila (bis)"
+},
+{
+"voix": "",
+"texte": "Mu nzila masumu ya dietingi\nKiazaya kutu nzila moyo ko\nKiateka zaya ngeye Yave ko\nO o Tata utubanzila"
+}
+]
+},
+{
+"numero": 29,
+"titre": "Kituka mu ntangu malongi mamoyo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kituka mu ntangu malongi mamoyo"
+},
+{
+"voix": "Tous",
+"texte": "Tufueti kukikitula"
+},
+{
+"voix": "Solo",
+"texte": "Bukafueni nzitusu a minzitusu"
+},
+{
+"voix": "Tous",
+"texte": "Tufueti kukikitula\nMu visikisa kedika kia Nzambi eto\nYandi watulendo ye mandi matulendo\nMu visikisa mo tukikitula"
+}
+]
+},
+{
+"numero": 30,
+"titre": "Koko kua yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Koko kua Yave kuna kala va wena"
+},
+{
+"voix": "Tous",
+"texte": "Koko kua Yave kuna kala\nKoko kua Yave kuna kala va wena\nKoko kua Yave kuena va ngeye"
+},
+{
+"voix": "Solo",
+"texte": "Ntondele kua ngeye Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Ntondele Mpungu Tulendo\nNtondele mu mambote mamonso\nMatukidi mu koko kua Yave"
+}
+]
+},
+{
+"numero": 31,
+"titre": "Kubama mu solula ye yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kubama mu solula ye Yave"
+},
+{
+"voix": "Tous",
+"texte": "Kadi Yandi Nzambi eto (bis)"
+},
+{
+"voix": "Solo",
+"texte": "Yave Nzambi kua ngeye tuizidi"
+},
+{
+"voix": "Tous",
+"texte": "Yambudila masumu meto mamo\nSakumuna beto babo\nUtuvuika bia nduanina"
+}
+]
+},
+{
+"numero": 32,
+"titre": "Kuna zulu tueti vingulua",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kuna zulu tueti vingulua"
+},
+{
+"voix": "Tous",
+"texte": "Kadi beto masoda ma Yave\nTueti nuananga mvita va nza\nKuna zulu tueti vingulua\nVo tunungini mvita va ntoto\nSitua bombua mu zulu"
+},
+{
+"voix": "Solo",
+"texte": "O kuna zulu\nO kiese, kiese, o kiese\nSitua mona mpe nzitusu a Yave\nEh, eh, kiese, kiese, kiese."
+}
+]
+},
+{
+"numero": 33,
+"titre": "Kusadilani nkumbu a yave mu nkatu ko",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Kusadilani nkumbu a Yave mu nkatu ko"
+},
+{
+"voix": "Tous",
+"texte": "Kadi Yave Nzambi"
+},
+{
+"voix": "Solo",
+"texte": "Kana nungisa muntu ko"
+},
+{
+"voix": "Tous",
+"texte": "Kusadilanga, nkumbu andi mu nkatu"
+}
+]
+},
+{
+"numero": 34,
+"titre": "Lubanlongo babo",
+"strophes": [
+{
+"voix": "",
+"texte": "Lubanlongo babo\nBadimbula minu\nMfumu una kuba tuba\nMuna una kuba tuba\nMuna zanga dia tiya"
+},
+{
+"voix": "",
+"texte": "Luba nlongo babo\nLukuikama kua Se\nLukutu kotisa kua Se"
+}
+]
+},
+{
+"numero": 35,
+"titre": "Lubatata luyangalala",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lubatata luyangalala"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi utuzolele"
+},
+{
+"voix": "Solo",
+"texte": "A a a kiese"
+},
+{
+"voix": "Tous",
+"texte": "A a a a kiese\nA a a a\nA a a a kiese\nYave Nzambi utuzolele"
+}
+]
+},
+{
+"numero": 36,
+"titre": "Luenda muanginisa nsamu wambote",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Luenda muanginisa nsamu wambote"
+},
+{
+"voix": "Tous",
+"texte": "Kua makanda mamonso mu nza\nYave kaluyonzikisa, kaluvilakana ko"
+},
+{
+"voix": "Solo",
+"texte": "Ma lumueni mu zindozi lukuikila mo"
+},
+{
+"voix": "Tous",
+"texte": "Kadi Mfumu watelele wo e e\nYave kaluyonzikisa, kaluvilakana ko"
+}
+]
+},
+{
+"numero": 37,
+"titre": "Luiza luakota luiza luazibula",
+"strophes": [
+{
+"voix": "",
+"texte": "Luiza lua kota luiza luazibula\nMuelo wazulu wena wazibuka\nNgina luvana nkembo ye nzitusu\nMoyo ye nsendo mu zulu mvu ya mvu"
+},
+{
+"voix": "",
+"texte": "Yave mu zulu weti kutuvingila\nMu ngunda zingi tueti sambila\nTombe va ntoto kieti luta bua\nYave Nzambi wiza tukitula"
+}
+]
+},
+{
+"numero": 38,
+"titre": "Luizeno, luizeno",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Luizeno,"
+},
+{
+"voix": "Tous",
+"texte": "Luizeno mu kiese\nLuizeno lua mona nkembo wa\nYave\nLuizeno mu kiese"
+},
+{
+"voix": "Solo",
+"texte": "Yangalala ,"
+},
+{
+"voix": "Tous",
+"texte": "yangalala\nYangalala mu Mfumu\nBukameni kutu luakisa mu nkembo\nWa bana ba yenge"
+},
+{
+"voix": "Solo",
+"texte": "Yimbila, yimbila"
+},
+{
+"voix": "Solo",
+"texte": "Yimbila mu kiese"
+},
+{
+"voix": "Tous",
+"texte": "Yimbila mumona nkembo wa Yave\nYimbila mu kiese"
+},
+{
+"voix": "Solo",
+"texte": "Tondeno, tondeno"
+},
+{
+"voix": "Tous",
+"texte": "Tu tondeno Yave\nTondeno butu meni luakusua mu nkembo\nTondeno mu kiese"
+}
+]
+},
+{
+"numero": 39,
+"titre": "Lukala bavedila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lukala bavedila a a a"
+},
+{
+"voix": "Tous",
+"texte": "Mono Nzambi eno ngiena wavedila\nO bana bami lukivedisanga\nO bana bami lutina mambi"
+},
+{
+"voix": "Solo",
+"texte": "Luzomina babo"
+},
+{
+"voix": "Tous",
+"texte": "Bunlongo bua Yave"
+},
+{
+"voix": "Solo",
+"texte": "Luzomina babo"
+},
+{
+"voix": "Tous",
+"texte": "Bunlongo bua Yave\nE e bundu dia KCC\nLukala bavedila"
+}
+]
+},
+{
+"numero": 40,
+"titre": "Lulendo lua yave lueti monika",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lulendo lua Yave lueti monika"
+},
+{
+"voix": "Tous",
+"texte": "Lulendo lua Yave lueti monika\nMu mavanga mandi mamanene\nLulendo lua Yave lueti monika\nMu mavanga mandi mamanene"
+}
+]
+},
+{
+"numero": 41,
+"titre": "Lulendo lua yave lueti monika kua bantu",
+"strophes": [
+{
+"voix": "",
+"texte": "Lulendo lua Yave lueti monika\nKua bantu bena ntemo’andi\nVungua ye sadusua bonso mameme\nMinkembo ku zulu tuena mio"
+},
+{
+"voix": "",
+"texte": "E e e tusambila\nLumbu biabionso tusambila\nMusonga zola ye minu kia lunga\nKua Yave Nzambi\nLumbu biabionso tusambila"
+}
+]
+},
+{
+"numero": 42,
+"titre": "Lumbu bia bionso tukubamanga mu mfumu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lumbu biabionso tukubamanga\nmu Mfumu"
+},
+{
+"voix": "Tous",
+"texte": "Kadi nsendo a masumu i lufua\nMuivi va nza kazayikisanga lumbu ko\nLufua mpe kazayikisanga ko"
+},
+{
+"voix": "Solo",
+"texte": "E mama simbidila nlemvo uwatambudi kua Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nlemvo a Yave Nzambi wansimbididi\nMpasi yabaka fulu mu zulu diandi\nKadi lumbu kia lufua luami kizeyi kio ko"
+},
+{
+"voix": "Solo",
+"texte": "Nlele wandombe masumu meto zimpangi"
+},
+{
+"voix": "Tous",
+"texte": "Meso meto mafukua menina\nMu tombe kia nza tudiatilanga kedika\nTala nlemvo a Yave wena va ngeye"
+}
+]
+},
+{
+"numero": 43,
+"titre": "Lumbu ka lumbu butuena moyo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lumbu kalumbu butuena moyo"
+},
+{
+"voix": "Tous",
+"texte": "Toma yimbila toma yangalala\nLumbu kalumbu butuena moyo\nTomba yimbila toma yangalala"
+},
+{
+"voix": "Solo",
+"texte": "Tuyimbila"
+},
+{
+"voix": "Tous",
+"texte": "Tutoma yimbila\nLumbu ka lumbu butuena moyo\nTutoma yimbila toma yangalala"
+}
+]
+},
+{
+"numero": 44,
+"titre": "Lumbu kia nsuka lufua vingilanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Lumbu kia nsuka tueti vingilanga\nMu diodio babo tutoma kubama\nKiau kina kuiza kaka bonso muivi\nMu diodio tuki kubamana babo"
+},
+{
+"voix": "",
+"texte": "Muna zulu dio: Zulu dio diya nsilulu\nTuna kotusua : Kotusua, tuna kotusua\nTuna yimbila : Yimbila, tuna yimbila,\nTuna kembela, kembela tuna kembela"
+}
+]
+},
+{
+"numero": 45,
+"titre": "Lusala salu mu bundu dia yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lusala salu mu bundu dia Yave"
+},
+{
+"voix": "Tous",
+"texte": "Mu kedika ye mu lunungu\nMpasi mpeve Yave ya sikila mu beno\nYe tambula nsendo wa vedila\nMu moko mandi muna kayengele"
+},
+{
+"voix": "Solo",
+"texte": "O o luzaya vo"
+},
+{
+"voix": "Tous",
+"texte": "Luzaya vo\nMinu kio kikondolo mavanga\nO minu kiokio kiafua kiena"
+},
+{
+"voix": "Solo",
+"texte": "Mu bundu diadi banlongo"
+},
+{
+"voix": "Tous",
+"texte": "Luzaya vo sala ye sambila\nKadi beno luena la solua\nMu sadisa bundu dia KCC\nNsendo eno muna kayengele"
+}
+]
+},
+{
+"numero": 46,
+"titre": "Lutelama banlongo ba yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Lutelama"
+},
+{
+"voix": "Tous",
+"texte": "banlongo ba Yave\nI ntinu a mintinu\nLusimba mu koko kua ngolo\nDimbu kia mpulusu"
+},
+{
+"voix": "Solo",
+"texte": "Lunata kedika kia Yave"
+},
+{
+"voix": "Tous",
+"texte": "Mu zinzila ye mu zinzo\nLusonga kua bantu babonso\nVo Yave i Mvuluzi"
+},
+{
+"voix": "Solo",
+"texte": "Yinduleti bilumbu biweka"
+},
+{
+"voix": "Tous",
+"texte": "Bio bisidi kuseyi bio ko\nToma yindula lumbu kia mbazi\nNanga kuna luaka kio ko"
+}
+]
+},
+{
+"numero": 47,
+"titre": "Luvana mbundulu a ntuadi",
+"strophes": [
+{
+"voix": "",
+"texte": "Luvana mbundulu a ntuadi\nLuvana kua Mfumu Nzambi eto mu kiese"
+}
+]
+},
+{
+"numero": 48,
+"titre": "Luzimpangi luenda mu yenge",
+"strophes": [
+{
+"voix": "",
+"texte": "Luzimpangi luenda mu yenge (sala mu yenge)\nLuzimpangi luende mu yenge (sala mu yenge)"
+},
+{
+"voix": "",
+"texte": "O yeno wawu (oyeto)\nIngiendeno (n\nGiendeto)"
+},
+{
+"voix": "",
+"texte": "Kua zimpangi luvana biyenge\nKua zimpangi luvana biyenge\nYonso wawu (oyeto) wawu"
+}
+]
+},
+{
+"numero": 49,
+"titre": "Luzimpangi mu dibundu",
+"strophes": [
+{
+"voix": "",
+"texte": "Luzimpangi mu Dibundu\nNzolele lua zaya vo\nYave nsilulu katu sila\nTontua tuna tontuanga"
+},
+{
+"voix": "",
+"texte": "Ntontolo kuiza zeti kuiza\nMpasi Nzambi kakembusua\nYave nsilulu katu sila\nNdungunu mu lusambulu"
+},
+{
+"voix": "",
+"texte": "Ngeye mpangi ukifimpa\nVolenda nunga mu ntontolo\nBunlongo buaku i ngudi a diambu\nMu lusambulu lua nlongo"
+}
+]
+},
+{
+"numero": 50,
+"titre": "Malongi ma yave tuwilu mo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Malongi ma Yave tuwilu mo"
+},
+{
+"voix": "Tous",
+"texte": "Tutondele kua ngeye Yave\nKisidi kua beto mu sadila mo nate nsukulu"
+}
+]
+},
+{
+"numero": 51,
+"titre": "Mambu ma yave mamoyo ma kia",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mambu ma Yave ma moyo ma kia"
+},
+{
+"voix": "Tous",
+"texte": "Makiesese ntima ami"
+},
+{
+"voix": "Solo",
+"texte": "Mu nzo a Yave Yave mu tukanga kia"
+},
+{
+"voix": "Tous",
+"texte": "Kua mambu ma Nzambi ma moyo ma kia ma kiesese ntima ami"
+},
+{
+"voix": "Solo",
+"texte": "Mambu ma Yave tukuikila mo"
+},
+{
+"voix": "Tous",
+"texte": "Ma tuasanga ku mpulusu"
+}
+]
+},
+{
+"numero": 52,
+"titre": "Mambu ma yave Nzambi i moyo ye kedika",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mambu ma Yave Nzambi i moyo\nye kedika"
+},
+{
+"voix": "Tous",
+"texte": "Wonso wena kitantu kua kedika\nBelele mpulusu a muel’andi wawo\nKadi mambu ma Yave i kedika"
+},
+{
+"voix": "Solo",
+"texte": "Kedika kia Nzambi eto vava nza"
+},
+{
+"voix": "Tous",
+"texte": "I nzila mpulusu kua babonsono\nMu bundu dia KCC kedika\nKa muntu ko ulenda kio kakidila"
+},
+{
+"voix": "Solo",
+"texte": "Mu vunza kedika satana utombanga"
+},
+{
+"voix": "Tous",
+"texte": "Ntima wena ye mpuila mia nzitusu\nMizininanga mpe fulu bia zangama\nMu vunzikisa mpeve ye kedika"
+}
+]
+},
+{
+"numero": 53,
+"titre": "Mameme ma yave i tombanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Mameme ma Yave\nI kuenda tombingi\nE e zimpangi zami luiza lua ntombisa"
+},
+{
+"voix": "",
+"texte": "Mameme ma mpembe\nKulubakala\nE e binkombo nkombo kulu moso"
+},
+{
+"voix": "",
+"texte": "Kizolele ko mameme\nVo mazimbala ye mamonsono\nMafueti vulusua"
+}
+]
+},
+{
+"numero": 54,
+"titre": "Matondo kua yave Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Matondo kua Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Yandi watukebele mu mvu wa mvimba\nTuvutula matondo kua Nzambi a moyo\nMu kedika yandi i Mvani a moyo"
+},
+{
+"voix": "Solo",
+"texte": "Tuvutula matondo"
+},
+{
+"voix": "Tous",
+"texte": "Kua Nzambi eto yandi nsemia biabio\nO Nzambi eto bika tua nzitisa"
+}
+]
+},
+{
+"numero": 55,
+"titre": "Matondo meto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Matondo meto"
+},
+{
+"voix": "Tous",
+"texte": "Matondo tueti vana kua Yave Nzambi\nMatondo"
+}
+]
+},
+{
+"numero": 56,
+"titre": "Matondo tueti vutula",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Matondo tueti vutula"
+},
+{
+"voix": "Tous",
+"texte": "Kua Nzambi a moyo\nMu nlemvo katusonganga\nNtangu zazonsono"
+}
+]
+},
+{
+"numero": 57,
+"titre": "Matondo tuvana kua yave Nzambi eto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Matondo tuvana kua Yave Nzambi eto"
+},
+{
+"voix": "Tous",
+"texte": "Babonso bu tuakidi vava nza"
+},
+{
+"voix": "Solo",
+"texte": "Matondo o o"
+},
+{
+"voix": "Tous",
+"texte": "Matondo o o kuena Yave Nzambi eto\nMatondo o kuena Mvuluzi a nza\nMatondo o kua Nzambi ya nlongo\nMatondo o tusika Mpungu tulendo"
+}
+]
+},
+{
+"numero": 58,
+"titre": "Mbandu vioka zi viokanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Luzimpangi lutomazaya mbandu zazonso\nZazo vioka ziviokanga\nKansi beto Yave Nzambi weti kutu luengisa\nTala bonso butu fueti diatila"
+},
+{
+"voix": "",
+"texte": "Luiza, luiza babonsono\nLuiza, luiza babonsono\nSatana wameni telema vava nza\nkansi beto vo tuzolele kumbedisa vava nza\nNgolo zeto mu lusambulu zena"
+}
+]
+},
+{
+"numero": 59,
+"titre": "Mbanza bunkita",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mbanza bunkita yakedi sadilanga"
+},
+{
+"voix": "Tous",
+"texte": "I nza ya masumu i kundanga satana\nMuel’ami wa fua buya kondua nsadisi\nKansi mu nlemvo a Yave yabala mpulusu"
+},
+{
+"voix": "Solo",
+"texte": "Mu kuma kia nani sielo biafilua vava nza"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi eto wafila sielo miandi\nMukuma kiami mpasi vo ya vulusua\nO Yave zolele vo ya sisa masumu\nO Yandi zolele vo mono ya vulusua"
+},
+{
+"voix": "Solo",
+"texte": "Bu yayekula zingu kiami kua Yave"
+},
+{
+"voix": "Tous",
+"texte": "Lumbu biabionsono nzomono\nye nkuamusu\nMbanza bunkita kayeti kunzola ko\nYe kimpala kia satana bu yaviluka"
+}
+]
+},
+{
+"numero": 60,
+"titre": "Mbanza yo yanlongo ya yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Mbanza yo ya nlongo ya Yave\nKamu kienzulanga ntangu vo ngonda ko\nKansi ntemo a Yave ye nzitusu andi mpe\nBikienzulanga mbanza yoyo"
+},
+{
+"voix": "",
+"texte": "Babonsono banungini mu nza yayi\nBana kotusua mu mbanza yoyo\nYave Nzambi Mvangi a biabionsono\nUna kotisa babonsono, banungini,"
+},
+{
+"voix": "",
+"texte": "Mu mvita zau vava nza\nOh mu mbanza vundanga\nBabonsono banungini mu nza yayi\nBana kotusua mu mbanza yoyo"
+}
+]
+},
+{
+"numero": 61,
+"titre": "Mbeni a muntu i muntu mu mamo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mbeni a muntu i muntu mu mamo"
+},
+{
+"voix": "Tous",
+"texte": "Ngeye wameni nunga mu sisa nza yayi\nSala kimfuzi kulandi muntu ko\nTala kuntuala tomba wasikila"
+},
+{
+"voix": "Solo",
+"texte": "Ngeye telamene"
+},
+{
+"voix": "Tous",
+"texte": "Siama mu nsamu a Yave\nMpasi walembua bua mu zimpukumunu\nBuwa tomene nitu simba Mvuluzi"
+},
+{
+"voix": "Solo",
+"texte": "Mambu ma Yave nkele kua satana"
+},
+{
+"voix": "Tous",
+"texte": "Nduenga za Yave Nzambi bu zeti sadisa\nVova kedika mu katula mambi\nYave Nzambi eto una kunungisa"
+}
+]
+},
+{
+"numero": 62,
+"titre": "Mbila ya nlemvo yeti boka vo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mbila ya nlemvo yeti boka vo"
+},
+{
+"voix": "Tous",
+"texte": "Luenda luakamba nsamu kua babo"
+},
+{
+"voix": "Solo",
+"texte": "O luenda luenda"
+},
+{
+"voix": "Tous",
+"texte": "Luenda luenda mu kiese\nLubasonga nsamu wa Yave Nzambi eto"
+}
+]
+},
+{
+"numero": 63,
+"titre": "Mbokono ya nlongo yilenda kutuvana moyo",
+"strophes": [
+{
+"voix": "",
+"texte": "Mbokono ya nlongo yilenda kutuvana moyo\nTutanga mu masonukua\nNsamu wambote watufidisa Mfumu Yave\nUfueni kutu vulusa"
+},
+{
+"voix": "",
+"texte": "Engua kiese mu landa Yave Mvuluzi\nMfumu a yenge Nzambi a nkenda\nTuena moyo mu mambu mandi mvu ya mvu\nVo tuwanga ye sadilanga mo"
+}
+]
+},
+{
+"numero": 64,
+"titre": "Mbongo ya moyo ya kunua mu nkumbu a yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Mbongo ya moyo ya kunua mu nkumbu a Yave\nMvuilu ya Nzambi ya ntalu ya nsilulu\nI sikilanga mvu ya mvu mu yinza diandi\nKa muntu mosi ko vuidi mbongo yoyo"
+},
+{
+"voix": "",
+"texte": "Lubana ba Nzambi Se lutoma zaya vo\nMuntu ukunanga Nzambi umenisanga\nMuntu ulekanga Nzambi ka lekanga ko\nTukembisa Nzambi Se nsemi’ a biabionsono\nYandi uvumusannga mu bantu va nza"
+},
+{
+"voix": "",
+"texte": "Tombanga nkembo wa Nzambi nge ukunanga\nSisa luyanu mu ntima ye mu zimpova\nUmenisanga viokele ye ukunanga\nI Yave Nzambi dia mpulusu"
+},
+{
+"voix": "",
+"texte": "Zitisa mbongo ya mena yena mu yinza\nKala kifuani kia Yave watomisa yo\nMu mamonsono talanga zizi kia Nzambi\nWasema mbongo yoyo vava nza"
+}
+]
+},
+{
+"numero": 65,
+"titre": "Mbuetete yeti zieta",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mbuetete yeti zieta"
+},
+{
+"voix": "Tous",
+"texte": "Kuna Node eh eh"
+},
+{
+"voix": "Solo",
+"texte": "Mbuetete yeti zieta"
+},
+{
+"voix": "Tous",
+"texte": "Kuna Sude eh eh\nMunkiama yizietilanga mulubula basolua bana kota mu zulu dia Yave\nMunkiama yizietilanga mu kienzula basolua bana kota mu zulu dia Yave"
+}
+]
+},
+{
+"numero": 66,
+"titre": "Mfimpidi zimpova zami",
+"strophes": [
+{
+"voix": "",
+"texte": "Mfimpidi zimpova zami\nMawonso ivovanga mambi\nNtim’ami kawavedila ko\nMawonso ibanzanga mambi"
+},
+{
+"voix": "",
+"texte": "Nkadulu zami kua bantu zambi\nMavanga mawonsono mambi\nMbanzidi mpasi za sielo biaku"
+},
+{
+"voix": "",
+"texte": "Mfukamene va ntadisi’aku\nNgeye Yave Nzambi ami\nNzolele funda kua nge\nNkanu mia mi Mfumu do undoluka"
+}
+]
+},
+{
+"numero": 67,
+"titre": "Mfumu yave untuaminina",
+"strophes": [
+{
+"voix": "",
+"texte": "Mu mavanga ma mbote kua beto kumbedilanga\nKansi nkuikumunu bu mvueti yo\nE e lusambila"
+},
+{
+"voix": "",
+"texte": "Mfumu Yave untuaminina\nMfumu untuaminina\nVo kondolo ngeye kibedisa ko\nMfumu Yave untuaminina"
+}
+]
+},
+{
+"numero": 68,
+"titre": "Mfumu wavova luenda dikila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mfumu wavova luenda dikila ma meme"
+},
+{
+"voix": "Tous",
+"texte": "Mameme mami mamonsono\nLuenda lua bakamba nsamu wo\nMpasi babonso baviluka"
+},
+{
+"voix": "Solo",
+"texte": "O o luenda luenda"
+},
+{
+"voix": "Tous",
+"texte": "Luenda luenda luabalonga\nLuenda lua bakamba nsamu wo\nMpasi babonso baviluka"
+}
+]
+},
+{
+"numero": 69,
+"titre": "Mono i muntu wambi va nza",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono i muntu wambi va nza"
+},
+{
+"voix": "Tous",
+"texte": "Yi vuezisanga Yave\nMu kuma kia masumu mami\nYandi uvuezuanga"
+},
+{
+"voix": "Solo",
+"texte": "Uvuezunga mu masumu mami\nuvuezuanga Yave"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi i vuezisanga\nMu masumu mami ivolanga"
+}
+]
+},
+{
+"numero": 70,
+"titre": "Mono mu KCC ngina fuila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E yaya e e e yaya\nMu KCC ngina fuila\nE yaya (bis)"
+},
+{
+"voix": "Tous",
+"texte": "E yaya e e e yaya\nMu KCC ngina fuila"
+}
+]
+},
+{
+"numero": 71,
+"titre": "Mono ngieti fimpa mavanga mami",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono ngieti fimpa mavanga mami"
+},
+{
+"voix": "Tous",
+"texte": "Nzila zazo zambi yadiatidi zo\nLelo mbueni nlemvo wa Yave Nzambi\nKin’ami wo sisa ko"
+},
+{
+"voix": "Solo",
+"texte": "Nlemvo wo buka nsongele wo"
+},
+{
+"voix": "Tous",
+"texte": "Watuka kua Yave Nzambi ami\nNkama zintotolo ngina nuana kaka\nMpasi yabaka nsendo mu zulu"
+}
+]
+},
+{
+"numero": 72,
+"titre": "Mono yakala mu tombe kia mambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono yakala mu tombe kia mambi"
+},
+{
+"voix": "Tous",
+"texte": "Kiatekazaya nzila moyo ko\nKiatekazaya Yave Nzambi ko\nMu nlemvo buabu i kunsoludi"
+},
+{
+"voix": "Solo",
+"texte": "Nzolele kuami yalandanga Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nzolele ya vulusua"
+},
+{
+"voix": "Solo",
+"texte": "O Matondo kua Yave Nzambi eto"
+},
+{
+"voix": "Tous",
+"texte": "O Matondo kua Yave Mvuluzi\nO Matondo mu zola kua Yave\nMu nlemvo ewu wuyatambudi"
+},
+{
+"voix": "Solo",
+"texte": "Nzolele tondanga Yave Nzambi ami"
+},
+{
+"voix": "Tous",
+"texte": "Nzolele kunzitisa"
+},
+{
+"voix": "Solo",
+"texte": "O Mayangi vo ngina fuanusua"
+},
+{
+"voix": "Tous",
+"texte": "O Mayangi vo ngina nungusua\nO Mayangi vo ngina sikila\nMu bundu diadi dianlongo dia KCC"
+},
+{
+"voix": "Solo",
+"texte": "Nzolele kuami yasadila Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nzolele ya sendua mpe"
+}
+]
+},
+{
+"numero": 73,
+"titre": "Mono yasadidingi satana",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono yasadidingi satana"
+},
+{
+"voix": "Tous",
+"texte": "Buabu mbueni nzil’ami\nYa mpulusu ya muel’ami"
+},
+{
+"voix": "Solo",
+"texte": "Kina vutuka diaka"
+},
+{
+"voix": "Tous",
+"texte": "Mu masumu ko"
+},
+{
+"voix": "Solo",
+"texte": "Kina vutuka diaka"
+},
+{
+"voix": "Tous",
+"texte": "Mu masumu ko\nE Mfumu, masumu mami mamo\nYave Nzambi vidingisa"
+}
+]
+},
+{
+"numero": 74,
+"titre": "Mono ya solua mu kala kusua kia yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Mono yasolua mu kala kusua kia Yave\nYayekula muel’ami mu mambi\nYave Nzambi wambokele\nMpasi wavukisa muel’aku"
+},
+{
+"voix": "",
+"texte": "Toma diata mu nza yayi\nNkadi a mpemba buambi kayikidi\nToma diata mu nduenga za Yave\nMpasi wavukisa muel’aku"
+}
+]
+},
+{
+"numero": 75,
+"titre": "Mono ya telemene",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono ya telemene mu nuana mvita va\nnza"
+},
+{
+"voix": "Tous",
+"texte": "Ntelemene mu nungisa Yave Nzambi\nami\nMu nzungu ye mu mpasi zami zazonso\nYikiyekole mufua mu diambu dia kedika :"
+},
+{
+"voix": "Solo",
+"texte": "Yakala dikoka ya telemene"
+},
+{
+"voix": "Tous",
+"texte": "Kedika kilendi kunsisa ko\nO o kedika kilendi kunsisa ko"
+},
+{
+"voix": "Solo",
+"texte": "Meso mafua matemone"
+},
+{
+"voix": "Tous",
+"texte": "Kedika kilendi kunsisa ko"
+}
+]
+},
+{
+"numero": 76,
+"titre": "Mono ya zenga mu sadila dibundu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mono ya zenga mu sadila dibundu"
+},
+{
+"voix": "Tous",
+"texte": "Mono ya zenga mu sadila dibundu\nKilendi ko mu vutuka manima\nKilendi ko mu vutuka manima"
+},
+{
+"voix": "Solo",
+"texte": "Nsilulu ngiena mu kota mu dizulu"
+},
+{
+"voix": "Tous",
+"texte": "Nsilulu ngiena mu kota mu dizulu\nKilendi ko mu vutuka manima\nKilendi ko mu vutuka manima"
+}
+]
+},
+{
+"numero": 77,
+"titre": "Mpuila zami i muzaya ngeye yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mpuila zami i mu zaya ngeye Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nkondolo kitantu kua nge\nMpuila zami i mu zaya ngeye Yave\nNkondolo kitantu kua nge"
+},
+{
+"voix": "Solo",
+"texte": "Mpuila zami ngeye kaka zeyi zo"
+},
+{
+"voix": "Tous",
+"texte": "Mabanza mami ngeye kaka zeyi mo\nMono ngizi finama kua ngeye Yave\nNkondolo kitantu kua nge"
+},
+{
+"voix": "Solo",
+"texte": "Mono kiena kuami bonso Kaïna ko"
+},
+{
+"voix": "Tous",
+"texte": "Nkondolo kitantu kua nge\nMono kiena kuami bonso Kaïna ko\nNkondolo kitantu kua nge"
+},
+{
+"voix": "Solo",
+"texte": "Mayangi mena nanga wo wabokolua"
+},
+{
+"voix": "Tous",
+"texte": "Nkondolo kitantu kua nge\nMayangi mena nanga wo wabokolua\nNkondolo kitantu kua nge"
+}
+]
+},
+{
+"numero": 78,
+"titre": "Mpulusu i sosanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Mpulusu isosanga\nMono ngizi solula yo\nMu dibundu diadi dia nlongo\nDia KCC"
+},
+{
+"voix": "",
+"texte": "Mpulusu isosanga\nMono ngizi solula yo\nMu malongi mandi manlongo\nMa moyo a mvu ya mvu"
+},
+{
+"voix": "",
+"texte": "Nki wasa mumono Yave\nKala wavedila\nNki wasa mu mpedoso aku\nMboki zolanga dibundu ye sadila dio"
+}
+]
+},
+{
+"numero": 79,
+"titre": "Mu diodio luzimpangi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu diodio luzimpangi lutoma zaya vo"
+},
+{
+"voix": "Tous",
+"texte": "Zinitu I kinlongo kia Mpeve a Yave\nO zimpangi katukivuidi ko"
+},
+{
+"voix": "Solo",
+"texte": "Tata diavedila, wena minu kialunga"
+},
+{
+"voix": "Tous",
+"texte": "Nsendo andi wean mu zulu"
+}
+]
+},
+{
+"numero": 80,
+"titre": "Mu diodio Tata nkuluntu wizidi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu diodio Tata Nkuluntu wizidi"
+},
+{
+"voix": "Tous",
+"texte": "Tuyangalala kueto babo\nSituadikulua diaka mu mambu ma Yave\nMena kua Tata Nkuluntu wizidi"
+}
+]
+},
+{
+"numero": 81,
+"titre": "Mukuzitisa yave tuizidi",
+"strophes": [
+{
+"voix": "",
+"texte": "Mukuzitisa Yave tuizidi\nKadi ngeye Nzambi a mpulusu\nNgeye vuidi nkembo ye nzitusu\nYave Nzambi yala mvu ya mvu"
+},
+{
+"voix": "",
+"texte": "Nzitusu kua nge\nNkembo kua nge\nNki a Nzambi lenda fuanana ye nge\nNzambi eto yala mvu ya mvu"
+},
+{
+"voix": "",
+"texte": "Nkembo, nkembo\nNzitusu kua nge\nBundu diaku dieti kukembisa\nTueti lomba wiza tufinama\nSakumuna beto babonsono"
+}
+]
+},
+{
+"numero": 82,
+"titre": "Mu lusambulu lua lonso",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu lusambulu lua lonso\nMuntu mosi mosi mpe"
+},
+{
+"voix": "Tous",
+"texte": "Tueti boka tueti bombidila nge Yave\nMu zinzungu ye zimpasi\nTueti mona vava nza\nYave Nzambi do utuvulusa"
+},
+{
+"voix": "Solo",
+"texte": "Vulusa"
+},
+{
+"voix": "Tous",
+"texte": "vulusa"
+},
+{
+"voix": "Solo",
+"texte": "Vulusa"
+},
+{
+"voix": "Tous",
+"texte": "vulusa Yave Nzambi do utuvulusa\nTueti bombidila ngeye\nUtu vulusa mu nza\nYave Nzambi do utuvulusa"
+},
+{
+"voix": "Solo",
+"texte": "Yave Nzambi beto tuizidi kua nge"
+},
+{
+"voix": "Tous",
+"texte": "Tuizidi bombidila kua nge Mvuluzi\nMu zimpasi za zonsono\nTueti mona vava nza\nYave Nzambi do utuvulusa"
+}
+]
+},
+{
+"numero": 83,
+"titre": "Mu minu kiami kia ntima",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu minu kiami kia ntima ya solula"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi i Mvuluzi’ami\nYandi I mvungi wabiza wakedika\nUna vulusa muel’ami"
+},
+{
+"voix": "Solo",
+"texte": "Bu yazibula ntima"
+},
+{
+"voix": "Tous",
+"texte": "Yatambula KCC\nMoyo a Nzambi kua mono\nUmonekene Yave Nzambi Mvuluzi\nI nsadisi ami kina kondua lekua ko\nKua Se diami"
+},
+{
+"voix": "Solo",
+"texte": "Ya mona lendo kia Yave ye ntemu’andi"
+},
+{
+"voix": "Tous",
+"texte": "Mpeve Yave ya nduakila\nMatu ye meso ye ntima bia zibuka\nYa wa ndinga ya Mvuluzi"
+}
+]
+},
+{
+"numero": 84,
+"titre": "Muna nkenda za yave tueti zingila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Muna nkenda za Yave tueti zingila"
+},
+{
+"voix": "Tous",
+"texte": "Va nza yayi, va nza yayi\nMuna nkenda za Yave tueti zingila\nVa nza ya masumu"
+},
+{
+"voix": "Solo",
+"texte": "Yave Mvuluzi o o"
+},
+{
+"voix": "Tous",
+"texte": "Yave Mvuluzi\nTu tininanga kua yandi"
+},
+{
+"voix": "",
+"texte": "Kue tulenda tinina lufua\nO o mbeni weti toma vema\nKua Yave tulenda vulusulua\nTutininanga kua yandi"
+},
+{
+"voix": "",
+"texte": "Vo zimpasi zazingi zeti kuizanga\nTusambila, tusambila\nVo zimpasi zazingi zeti kuizanga\nTusambilanga kua yandi"
+}
+]
+},
+{
+"numero": 85,
+"titre": "Mu nani zolele singama",
+"strophes": [
+{
+"voix": "",
+"texte": "Mu nani zolele singama\nMu nani zolele singama\nMu Yave nzolele singama\nInga singama"
+}
+]
+},
+{
+"numero": 86,
+"titre": "Mu nsualu nsualu tuwa malongi maku",
+"strophes": [
+{
+"voix": "",
+"texte": "Mu nsualu nsualu tuwa malongi maku\nBeto tuizidi ye mpuila ku nto\nTuzolele tualongua mambu maku\nMu lunda mo utusadisa"
+},
+{
+"voix": "",
+"texte": "O Yave Nzambi , utusadisa\nDo utulonga ye utuluengisa\nKadi kua ngeye kuena moyo eto\nMu lunda mo utusadisa"
+},
+{
+"voix": "",
+"texte": "Yave Nzambi uzolanga babonso\nBakota mukayengele\nLuzolo luandi lu lutidi mu ngolo\nBabonsono bakotele"
+}
+]
+},
+{
+"numero": 87,
+"titre": "Mu ntima mbeki bunkita",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu ntima mbeki bunkita Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Nakoti mu moyo ami"
+},
+{
+"voix": "Solo",
+"texte": "Unkeba mu nsisi zazo Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Simba minu kia ntima ami\nNate ye suka a zingu kiamu Mfumu\nUmpana lulendo luaku, untomisa, unsimba\nUmpana lulendo luaku, untomisa, unsimba"
+},
+{
+"voix": "Solo",
+"texte": "Mpova zami buzetiyoka bonso tiya"
+},
+{
+"voix": "Tous",
+"texte": "Unsoba nadede buabu\nNate ye suka a zingu kiamu Mfumu\nUmpana lulendo luaku, untomisa, unsimba\nUmpana lulendo luaku, untomisa, unsimba"
+},
+{
+"voix": "Solo",
+"texte": "Nganzi zame bu zeti vonda salu kiaku"
+},
+{
+"voix": "Tous",
+"texte": "Vana yenge mu ntim’ami\nNate ye suka a zingu kiamu Mfumu\nUmpana lulendo luaku, untomisa, unsimba\nUmpana lulendo luaku, untomisa, unsimba"
+},
+{
+"voix": "Solo",
+"texte": "Mbeni bunga dibundu diaku, Yave\nNzambi"
+},
+{
+"voix": "Tous",
+"texte": "Mbeni vunua kua nkadi a mpemba\nNate ye suka a zingu kiamu Mfumu\nUmpana lulendo luaku, untomisa, unsimba\nUmpana lulendo luaku, untomisa, unsimba"
+},
+{
+"voix": "Solo",
+"texte": "Ngieti dila mu ntima buabu, Mfumu Yave"
+},
+{
+"voix": "Tous",
+"texte": "Kala yami nate ye mfuilu (bis)\nNate ye suka a zingu kiamu Mfumu\nUmpana lulendo luaku, untomisa, unsimba\nUmpana lulendo luaku, untomisa, unsimba"
+}
+]
+},
+{
+"numero": 88,
+"titre": "Mu nzila mfumu eto yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu nzila Yave Nzambi eto"
+},
+{
+"voix": "Tous",
+"texte": "Tulambudi kueto\nMu lembo vutuka kumanima\nBuala buandi luakila"
+},
+{
+"voix": "Solo",
+"texte": "Tuendeno, tuendeno"
+},
+{
+"voix": "Tous",
+"texte": "Tuendeno, tuendeno,\nMu lembua vingila kota\nMu nzila Yave Nzambi eto\nNzila yo ya mpulusu"
+},
+{
+"voix": "Solo",
+"texte": "Bana bandi bena mu nzil‘andi"
+},
+{
+"voix": "Tous",
+"texte": "Bana luaka tuzeyi\nYi bakala mu dikabu\nDiba tambula nsendo"
+},
+{
+"voix": "Solo",
+"texte": "Va luse lua Mfumu eto Yave"
+},
+{
+"voix": "Tous",
+"texte": "Tulambudi kueto\nYi tuakala mu dikabu\nDiaba vulusa nade"
+}
+]
+},
+{
+"numero": 89,
+"titre": "Mu sadila yave Nzambi fimpani",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu sadila Yave Nzambi fimpani"
+},
+{
+"voix": "Tous",
+"texte": "Mu sadila Yave Nzambi fimpani\nFimpani, fimpani muna ntim‘aku\nVo ngeye fueni mu vulusua mpe"
+},
+{
+"voix": "Solo",
+"texte": "Yave Nzambi wamoyo kena"
+},
+{
+"voix": "Tous",
+"texte": "Ah ah ah wamoyo kena\nYave Nzambi wamoyo kena\nAh ah ah wamoyo kena"
+},
+{
+"voix": "Solo",
+"texte": "Mu sadila Yave Nzambi talani"
+},
+{
+"voix": "Tous",
+"texte": "Mu sadila Yave Nzambi talani\nTalani, talani muna ntim‘aku\nVo mena mu nsadulu Yave"
+}
+]
+},
+{
+"numero": 90,
+"titre": "Mu sadila yave Nzambi kamuena mpasi ko",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu sadila Yave Nzambi kamuena\nmpasi ko"
+},
+{
+"voix": "Tous",
+"texte": "Mu sadila Yave Nzambi kamuena\nmpasi ko\nLuzolo lua muntu ye nkuikumunu a muntumpasi kaluenga"
+},
+{
+"voix": "Solo",
+"texte": "Muzaya Yave Nzambi kamuena mpasi ko"
+},
+{
+"voix": "Tous",
+"texte": "Muzaya Yave Nzambi kamuena mpasi ko\nLuzolo lua muntu ye nkuikumunu a muntu mpasi kaluenga"
+}
+]
+},
+{
+"numero": 91,
+"titre": "Mu salu usalanga",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Mu salu usalanga kia mono Nzambi aku"
+},
+{
+"voix": "Tous",
+"texte": "Bimba mpasi za salu kia mono Nzambi\naku\nU muana izolanga mu bundu dia nlongo\nVibidila mamo si ya kukembisa"
+},
+{
+"voix": "Solo",
+"texte": "Mono Nzamboi aku i ntonga\nNtima aku"
+},
+{
+"voix": "Tous",
+"texte": "u muana wantalu beni izolanga\nMamo u monanga mono ya kubikila mo\nKu zezani ko\nKusisani ko\nMpasi wa yonzika mbutu\nMia salu kia ku\nKu zezani ko\nKusisani ko\nSikila muana mi\nSi ya ku kembisa"
+}
+]
+},
+{
+"numero": 92,
+"titre": "Nanga mia yave va nza",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nanga mia Yave va nza i beno zintumua"
+},
+{
+"voix": "Tous",
+"texte": "Sielo bia Nzambi luwa kalu zimfumu ko\nNtumua zalutekila za kikulula\nLuvanga mpe bumosi mu mbandu yayi"
+},
+{
+"voix": "Solo",
+"texte": "Lubisielo mu dibundu luminanga"
+},
+{
+"voix": "Tous",
+"texte": "Ludiata bonso buadiatila mbikudi miami\nLukiyina mu lemvuka kua konsono\nLusadilanga kedika mu mamonsono"
+},
+{
+"voix": "Solo",
+"texte": "Luzieta mu siamisa mameme mami"
+},
+{
+"voix": "Tous",
+"texte": "Mpeve yi luatambudi ya Yave Nzambi‘\neno Sielo lusala salu mu lunungu lualo\nLulemvuka kua bantu babo mu dibundu"
+},
+{
+"voix": "Solo",
+"texte": "Lusadila kedila mu bundu dia kcc"
+},
+{
+"voix": "Tous",
+"texte": "Nkailu mia satana luyanu luvunu\nSielo lutoma keba mu nsadulu yambi\nYave Nzambi kuzulu weti mona mamo."
+}
+]
+},
+{
+"numero": 93,
+"titre": "Nani lenda kutu tanina",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nani lenda kutu tanina"
+},
+{
+"voix": "Tous",
+"texte": "Vo ka Yave Nzambi ko\nYe mu nzungu zeto vava nza\nNani lenda kutu taninanga"
+},
+{
+"voix": "Solo",
+"texte": "Yave i Nzambi, Yave i Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Kua yandi tutalanga\nTuena babo va koko kuandi\nKua yandi tutalanga"
+}
+]
+},
+{
+"numero": 94,
+"titre": "Nani lenda kutu vanga buambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Nani lenda kutu vanga buambi\nYoyo i mpova ya Yave kua beto\nYandi i tadi dia moyo kua beto\nMu diau tu suaminanga\nYandi i tadi dia moyo kua beto\nMu diawu tusuaminanga"
+},
+{
+"voix": "",
+"texte": "O o tadi diodio dia mpulusu\nMu diau tuasilua nsilulu\nKua Nzambi Se i Se dieto\nYave Nzambi a nkembo i tadi dio"
+}
+]
+},
+{
+"numero": 95,
+"titre": "Nani wena wafuana mu bundu dia KCC",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nani wena wafuana mu bundu dia KCC"
+},
+{
+"voix": "Tous",
+"texte": "Ka kuena muntu ko wena wafuana\nSadila kedika ye sisa luyanu\nYave Nzambi eto sika ku fuanisa"
+},
+{
+"voix": "Solo",
+"texte": "Nzitusu miamio miena kua Yave"
+},
+{
+"voix": "Tous",
+"texte": "Lubakiasolua kaluvunuandi ko\nLutina tambula nzitusu mia Yave\nLukikulula o bakiasolua"
+}
+]
+},
+{
+"numero": 96,
+"titre": "Nani zolele landa yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Nani zolele landa Yave\nMono nzolele, nzolele\nMulanda Yave vambana ye satana\nMono nzolele, nzolele\nMulanda Yave vambana ye nza yayi\nMono nzolele, nzolele"
+},
+{
+"voix": "",
+"texte": "Nzolele\nMono nzolele, nzolele\nYave Nzambi ntinu a mintimu\nWakunsola mu kala kinuani\nMono nzolele, nzolele"
+},
+{
+"voix": "",
+"texte": "Mu landa Yave toma kukikenga\nMono nzolele, nzolele\nMu landa Yave keba mpovolo zazo\nMono nzolele, nzolele\nMulanda Yave toma kukifuanisa\nMono nzolele, nzolele"
+}
+]
+},
+{
+"numero": 97,
+"titre": "Nduengoso eto yena mu yave Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Nduengoso eto yena mu Yave Nzambi\nMu yandi muena mpulusu eto\nO tuendeno kua Yave Nzambi\nYave Nzambi utuvingilanga"
+},
+{
+"voix": "",
+"texte": "O ntuendeno kuetotuasambila\nMu yandi muena mpulusu eto\nO ntuendeno kua Yave Nzambi\nYave Nzambi utu vingilanga"
+}
+]
+},
+{
+"numero": 98,
+"titre": "Nduenga za zinene",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Vo babingi beti kutuzomanga\nTous Ye beto tueti toma vibidila\nYave Nzambi sika kutu kembisa\nO Yave i nsadisi eto"
+},
+{
+"voix": "Solo",
+"texte": "Nduenga za zinene za Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Nduenga za zinene za Nzambi eto\nNzambi eto ya lulendo\nweti kutusadisa"
+},
+{
+"voix": "Solo",
+"texte": "Vo malema ye nzungu bieti kuizanga"
+},
+{
+"voix": "Tous",
+"texte": "Ye beto tueti toma vibidila\nKadi Yave i Mvungi eto wa biza\nYandi kaka i nsadisi eto"
+},
+{
+"voix": "Solo",
+"texte": "Nkundi siama mu ntotolo za vanza"
+},
+{
+"voix": "Tous",
+"texte": "Nuana mvita mu sabala kia Mpeve\nYave Nzambi weti kutubombanga\nMpe yetikutusadisa"
+},
+{
+"voix": "Solo",
+"texte": "Mambu mandi i sabala kia lulendo"
+},
+{
+"voix": "Tous",
+"texte": "Mu kiau banlongo banunganga\nMu zimvita zau vava nza yayi\nYe bombuanga mu mazulu ."
+}
+]
+},
+{
+"numero": 99,
+"titre": "Nduenga za kizulu zamono Nzambi eno",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nduenga za kizulu zamono Nzambi eno"
+},
+{
+"voix": "Tous",
+"texte": "Nduenga za vedila zena za mpulusu\nNduenga zisonganga zola ye nkenda mpe\nKua makanda mamo mpasi bavulusua"
+},
+{
+"voix": "Solo",
+"texte": "Nduenga za satana i nduenga za\nmbungulu"
+},
+{
+"voix": "Tous",
+"texte": "Lombanga nduenga kua Nzambi a moyo\nZi yonzikanga sivananga yenge\nLombanga nduenga kau Nzambi a moyo\nZivulusanga, zivananga moyo"
+},
+{
+"voix": "Solo",
+"texte": "Satana va ntoto wena ye nduenga mpe"
+},
+{
+"voix": "Tous",
+"texte": "Nduenga za kimpala za kondua kedika\nZa kondua lunungu zola ye nkenda mpe\nKazitunganga ko zena zasumuka"
+}
+]
+},
+{
+"numero": 100,
+"titre": "Ndimbudulu a minu masumu kua yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Wamana dimbula minu kua mono Nzambi aku\nNeti nkanu a masumu ma mbungulu\nUkivana kua mono Nzambi ya kedika\nMu minu kia sikila"
+},
+{
+"voix": "",
+"texte": "Sanga vuvu kua mono Yave Nzambi aku\nNkenda zami ka zena nsuka ko o o o\nMu mpasi ye zinzungu zazo kina kusisa ko o o\nSambilanga lumbu biabionsono"
+},
+{
+"voix": "",
+"texte": "Ntotolo buzilueki kala kibakala\nKubikanga ntim‘aku mu sambila\nKeti keti ye wonga ntambu mia satana\nMilenda kuvidisa"
+}
+]
+},
+{
+"numero": 101,
+"titre": "Ngeye Tata mene nkembo mu ndiatulu zambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Ngeye tatamene nkembo mu ndiatulu zambi\nWiza wavulusua nkundi\nKadi ndinga Yave Nzambi ikubokele nade\nWiza wavulusua Mfumu ukuzolele"
+},
+{
+"voix": "",
+"texte": "Kiese kuzulu kiena\nE kiese kiese\nMu mona Nkemboa Yave Nzambi\nNzambi wa mbote kena\nBika tua nsadila"
+}
+]
+},
+{
+"numero": 102,
+"titre": "Ngeye Tata ngeye mama o nki weti vingilanga",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ngeye Tata ngeye mama"
+},
+{
+"voix": "Tous",
+"texte": "Onki weti vingilanga\nYave Nzambi weti kubokilanga\nOh wiza wavulusua"
+},
+{
+"voix": "Solo",
+"texte": "O o wiza o o wiza"
+},
+{
+"voix": "Tous",
+"texte": "O o wiza kumpulusu\nYave Nzambi weti kuvingilanga\nO o wiza wavulusua"
+}
+]
+},
+{
+"numero": 103,
+"titre": "Ngeye una mona mu bana ba bantu",
+"strophes": [
+{
+"voix": "",
+"texte": "Ngeye una mona mu bana ba bantu\nMpasi zetikuiza ye nzungu mpe\nE e lusambila"
+}
+]
+},
+{
+"numero": 104,
+"titre": "Ngeye vangu kia Nzambi toma zayanga vo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ngeye vangu kia Nzambi toma zayanga\nvo"
+},
+{
+"voix": "Tous",
+"texte": "Nkela nzo a masumu nge uleka mo\nKimpala ye lulendo sisa mambi mamo\nLumbu bia zingu kiaku bu bieti viokanga"
+},
+{
+"voix": "Solo",
+"texte": "Tuzakameno"
+},
+{
+"voix": "Tous",
+"texte": "Vantadisi a Yave\nYave Nzambi eto\nYandi Mvangi eto\nLufua ye moyo mu muntu\nKua yandi biena vava nza"
+},
+{
+"voix": "Solo",
+"texte": "Tala kunima nkundi bantu bamana fua"
+},
+{
+"voix": "Tous",
+"texte": "Zinzo mpe ye zimbongo bau basisa zo\nKimvuama kia nza yayi kakiena ndandu ko\nTomba nkembo a dizulu ulembua sukanga"
+}
+]
+},
+{
+"numero": 105,
+"titre": "Lu ba Tata lu yangala",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Luba tata luyangalala e e"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi utuzolele"
+},
+{
+"voix": "Solo",
+"texte": "ah kiese ee\nA a a kiese\nA a a a\nYave Nzambi utuzolele"
+}
+]
+},
+{
+"numero": 106,
+"titre": "Ngeye weti sampaka mu mambu ma yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ngeye weti sampaka mu mambu ma\nYave"
+},
+{
+"voix": "Tous",
+"texte": "Ngeye u nani usambisanga Yave Nzambi\naku Mfumu a zimfumu Mvangia bantu babo Wavanga zulu, ntoto ye biabionsono"
+},
+{
+"voix": "Solo",
+"texte": "Yave Nzambi i moyo kua ngeye"
+},
+{
+"voix": "Tous",
+"texte": "Kuvunu andi ko Yave I Nzambi aku\nToma yindula yambula zimpaka\nToma kedika kina kuvulusa"
+},
+{
+"voix": "Solo",
+"texte": "Bumeni zaya vo Yave i Mvuluzi aku"
+},
+{
+"voix": "Tous",
+"texte": "Lomba kua yandi kasiamisa minu kia\nntim‘aku\nMpasi watambula nduenga ye mpeve‘andi\nYina kusonga kedika kia kionsono"
+}
+]
+},
+{
+"numero": 107,
+"titre": "Ngina sika yave Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ngina sika Yave Nzambi\nNgina sika Yave Nzambi\nMu ntangu zazo, vava nza\nMu ntangu zazo, bu ngiena moyo"
+},
+{
+"voix": "Tous",
+"texte": "Ngina sika Yave Nzambi\nNgina sika Yave Nzambi\nMu ntangu zazo, vava nza\nMu ntangu zazo, bu ngiena moyo"
+}
+]
+},
+{
+"numero": 108,
+"titre": "Nguilu mbila yeti bokila basolua",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nguilu mbila yeti bokila basolua"
+},
+{
+"voix": "Tous",
+"texte": "Mono yakondua Mvungi a moyo kumbazi\nYave Nzambiwansolele mu kota mu mpaka\nBika ya landa mavanga ma Mvuluzi ami"
+},
+{
+"voix": "Solo",
+"texte": "Eh Nzambi a zola beni bika ya zitisa"
+},
+{
+"voix": "Tous",
+"texte": "Bika yazitisanga ntangu zazonsono\nKadi nge wankotisa muna mpaka ya\nmoyo\nMu baka mpeve aku yina kunsadisa"
+}
+]
+},
+{
+"numero": 109,
+"titre": "Nkembo, nkembo, nkembo yimbila alleluya",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nkembo, nkembo, nkembo\nNkembo, nkembo, nkembo\nYimbila alleluya"
+},
+{
+"voix": "Tous",
+"texte": "Nkembo, nkembo, nkembo\nNkembo, nkembo, nkembo\nYimbila alleluya"
+}
+]
+},
+{
+"numero": 110,
+"titre": "Nkembo kua Nzambi muna kayengele",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "E e lubatata ye bamama"
+},
+{
+"voix": "Tous",
+"texte": "Luizeno kua Yave Nzambi"
+},
+{
+"voix": "Solo",
+"texte": "Nkembo kua Nzambi muna kayengele"
+},
+{
+"voix": "Tous",
+"texte": "Yenge kua beno vava ntoto o o\nYenge kua bantu bazolakana"
+}
+]
+},
+{
+"numero": 111,
+"titre": "Nkembo wa KCC mu zulu dia yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nkembo wa KCC mu zulu dia Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nkembo wa KCC mu zulu dia Yave\nNkembo wa KCC mu zulu dia Yave a a\nYave Nzambi tambula wo (bis)."
+}
+]
+},
+{
+"numero": 112,
+"titre": "Nkia mpila Nzambi beto tufueti sambila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi zikondolo moyo zi vondanga\nmuela"
+},
+{
+"voix": "Tous",
+"texte": "Nzambi za vangua mu moko ma bantu\nva nza, Nzambi zi kondolo meso, zikondolo matu, Nzambi zikondolo nua ye ndinga"
+},
+{
+"voix": "Solo",
+"texte": "Nkia mpila Nzambi beto tufueti sambila"
+},
+{
+"voix": "Tous",
+"texte": "I Nzambi yena moyo Nzambi i monanga\nNzambi yiwanga ye vovanga mpe\nI Nzambi kayimonua, Nzambi\nkayisimbua\nNzambi ya kedika i Yave"
+},
+{
+"voix": "Solo",
+"texte": "Nzambi ya moyo tuzeyi tusilanga vuvu"
+},
+{
+"voix": "Tous",
+"texte": "Nzambi wavanga dizulu ye ntoto wawo\nNzambi vuidi lulendo mu vulusa miela\nNzambi wa vulusa ntoto wawo"
+}
+]
+},
+{
+"numero": 113,
+"titre": "Nki tufueti vanga mu baka moyo wa mvu ya mvu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nki tufueti vanga mu baka moyo wa\nmvu ya mvu"
+},
+{
+"voix": "Tous",
+"texte": "Vilula madiela kadi kimfumu kia mazulu\nKieti finamanga ntangu zazo vava ntoto\nNlemvo wa nsilulu"
+}
+]
+},
+{
+"numero": 114,
+"titre": "Nki weti vemina nge u sambilanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Nki weti vemina nge u sambilanga\nMpulusu a muela mono yi veminanga\nBu ngiena moyo va nza ya masumu\nNzil‘ami ya zulu mono yikubikanga\nNzolele kota muna nsi ya nsilulu"
+},
+{
+"voix": "",
+"texte": "Engwe muela engwe muel‘ami\nUngiambudila u Nzambi ami\nBungiena moyo va nza ya masumu\nU mvibidila ye viluka\nU mfuila nkenda mpasi ya vulusua"
+}
+]
+},
+{
+"numero": 115,
+"titre": "Nkundi ami u bokolo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nkundi ami ubokolo"
+},
+{
+"voix": "Tous",
+"texte": "Wiza kua Yave watambula mambu\nMambu ma moyo mafueni kua ngeye\nMambu ma mpulusu"
+},
+{
+"voix": "Solo",
+"texte": "Mpuila za yenge, mpuila za zola"
+},
+{
+"voix": "Tous",
+"texte": "Mpuila zivananga moyo kua nge\nMpuila za yenge, mpuila za zola\nMpuila za Mvuluzi"
+},
+{
+"voix": "Solo",
+"texte": "Nkundi ami nge wena ye mpuila"
+},
+{
+"voix": "Tous",
+"texte": "Wiza mu nsualu watambula mambu\nWena ye mpuila, mpuila za yenge\nMpuila za Mvuluzi"
+}
+]
+},
+{
+"numero": 116,
+"titre": "Nlemvo a yave",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nlemvo a Yave, o nlemvo a Yave"
+},
+{
+"voix": "Tous",
+"texte": "Nlemvo a Yave Nzambi usikilanga\nntangu zazo, Nlemvo a Yave , o nlemvo a Yave Wau kutu sadisanga ntangu zazo"
+},
+{
+"voix": "Solo",
+"texte": "Tusikileno, mu nlemvo a Yave"
+},
+{
+"voix": "Tous",
+"texte": "Tusikileno; mu nlemvo a Yave\nMu nlemvo a Yave muena lusadusu\nLueto Mu nlemvo a Yave muena mpe mpulusu eto"
+}
+]
+},
+{
+"numero": 117,
+"titre": "Nsamu wo wambote kuedi sueka ko nkundi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nsamu wo wambote kuedi sueka ko\nnkundi"
+},
+{
+"voix": "Tous",
+"texte": "Samunanga nsamu wo\nKionso kionso vuma lenda kuaku songa\nKadi wena wampulusu"
+},
+{
+"voix": "Solo",
+"texte": "Kamba wo, kamba wo"
+},
+{
+"voix": "Tous",
+"texte": "Kamba wo, muna nsi zazonsono\nMfumu eto Yave, i liliya kia ntalu\nTendikisa kua babo"
+},
+{
+"voix": "Solo",
+"texte": "Samunanga nsamu toma ta kimbangi"
+},
+{
+"voix": "Tous",
+"texte": "Bonso buena kedika\nKalanga mayangi muna Yave Nzambi\nKadi muena mpulusu"
+}
+]
+},
+{
+"numero": 118,
+"titre": "Nsilulu za Nzambi zilungidi",
+"strophes": [
+{
+"voix": "",
+"texte": "Oh ! nsilulu za Nzambi zilungidi\nMuna nza yayonsono\nOh ! nkembo wa Nzambi usemanga\nMuna nsi yayonsono\nOh! Nkembo wa Nzambi usemanga\nMuna nsi yayonsono"
+}
+]
+},
+{
+"numero": 119,
+"titre": "Ntangu a malongi i lungidi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ntangua malongi i lungidi"
+},
+{
+"voix": "Tous",
+"texte": "Tuzibula meso, tuzibula matu, tuzibula ntima Ntangua malongi yilungidi, tukala napi"
+},
+{
+"voix": "Solo",
+"texte": "Yave Nzambi weti longa, mu Bibila"
+},
+{
+"voix": "Tous",
+"texte": "Tata sielo weti longa, mu Bibila\nTata nlongi weti longa, mu Bibila"
+},
+{
+"voix": "Solo",
+"texte": "Kiadi tata nlongi"
+},
+{
+"voix": "Tous",
+"texte": "Buketi longanga\nKansi beto bantu katuwanga malongi ko\nMu lumbu kina bue tuna kadila\nTuwanga tata nlongi bu keti longanga"
+}
+]
+},
+{
+"numero": 120,
+"titre": "Ntondele yave buwena u Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Ntondele Yave buwena u Nzambi\nVo widi kondua nga ntatu wambanisi\nNtondele vo ngeye watoma zenga\nVo satana ka singua ye babo bafua"
+},
+{
+"voix": "",
+"texte": "Ntoto widi vangua kua satana e e\nNga mono nkondolo luvuvamu"
+},
+{
+"voix": "",
+"texte": "Nga mono nkondolo lusadusu\nNga satana wena kumbanisa"
+},
+{
+"voix": "",
+"texte": "Mintantu miami miena yeku yeku\nYeku mbazi mpe ye mu ngudi a nzo\nDikanda ye ki se bena kintantu kua mono\nBakundi bami babo bazolele ya fua"
+}
+]
+},
+{
+"numero": 121,
+"titre": "Nunga kaka mfueti nunga",
+"strophes": [
+{
+"voix": "",
+"texte": "Nunga kaka mfueti nunga\nMu mvita zazo va nza\nKilendi bedusua ko\nMfumu ami Yave wena yami mu mamo"
+},
+{
+"voix": "",
+"texte": "Satana\nWeti zola bena keti keti\nSatana\nWena ngolo kua balebakana\nKansi mono kilendi bedusua ko"
+}
+]
+},
+{
+"numero": 122,
+"titre": "Nzambi mpungu nge nkua mbote",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi a Mpungu nge nkua mbote"
+},
+{
+"voix": "Tous",
+"texte": "Kedika unzolele beni\nNzambi a Mpungu nge kua mbote\nBuwankatudi mu tombe ki"
+},
+{
+"voix": "",
+"texte": "Ngeye bue uzolele Nzambi !\nInga yiku zolele mu ntima ye muel‘ami"
+},
+{
+"voix": "Solo",
+"texte": "Ngeye buwankatudi mu tomb‘eki"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi yaku zaila mu KCC\nUmpana lendo minu, vuvu ye zola\nYe ya sikila mu nge mvu ya mvu"
+},
+{
+"voix": "Solo",
+"texte": "Inga Tata"
+},
+{
+"voix": "Tous",
+"texte": "Buzengi buingi bua kedi yami\nBuyazaya kiese kia sumu ye sumu\nYa banza vo i ntomoso mu nsumi ye muel‘ami"
+},
+{
+"voix": "Solo",
+"texte": "Makela ye zimpaka bue usisidi bio"
+},
+{
+"voix": "Tous",
+"texte": "Inga yikuzolele, mu ntima ye muel‘ami\nMu kala muana Nzambi teka kituka wauke vo zolele Inga, yikuzolele, mu ntima ye muel‘ami"
+}
+]
+},
+{
+"numero": 123,
+"titre": "Nzambi mpungu utuwila",
+"strophes": [
+{
+"voix": "",
+"texte": "Nzambi Mpungu utuwila tueti boka\nMu zimpasi tueti mona vava nza\nNzambi Mpungu tueti boka tueti bombidila nge\nUtu vulusa mu nza ya lufua"
+},
+{
+"voix": "",
+"texte": "Minu kieto i mu vulusua kua ngeye\nNgeye i Nzambi\nYave Nzambi tueti lomba\nMu zimpasi vava nza\nKutu sisi ko mu nza ya lufua"
+},
+{
+"voix": "",
+"texte": "Vo zimpasi vo zinzungu tuku bombidila nge\nMu zimpasi tueti mona vava nza\nNzambi Mpungu tuku lomba utuvulusa mu nza\nKutu sisi ko mu nza ya lufua"
+},
+{
+"voix": "",
+"texte": "Kondua minu kuena nzungu\nKua babonsono vava nza\nTuku lomba wutu vana minu kio\nNzambi Mpungu wena mvungi kua bawanga mbil’andi\nBena vulusua mu nza ya lufua"
+}
+]
+},
+{
+"numero": 124,
+"titre": "Nzambi na beto kusalaka zulu na ntoto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi na beto kusalaka zulu na ntoto"
+},
+{
+"voix": "Tous",
+"texte": "Nzambi na beto kusalaka bima nionso\nNzambi na beto Nzambi ya lulendo\nNzambi a Mpungu Mvuluzi a nza"
+},
+{
+"voix": "Solo",
+"texte": "Mpilulu a madiela ikele mfunu mingi"
+},
+{
+"voix": "Tous",
+"texte": "o ikele mfunu mingi, samuna yau beto\nlenda bika, mpe na kumona Nkembo a Nzambi"
+}
+]
+},
+{
+"numero": 125,
+"titre": "Nzambi nge mosi kaka wena",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi nge mosi kaka wena"
+},
+{
+"voix": "Tous",
+"texte": "Nkumbu aku Yave Nzambi\nNgeye wavanga dizulu\nYe ntoto ye biabionsono mpe"
+},
+{
+"voix": "Solo",
+"texte": "Kadi ngeye Yave i Nzambi‘eto"
+},
+{
+"voix": "Tous",
+"texte": "Tuka mu nsi ya Ngipiti\nTuna zaya nzambi za nkaka ko\nKadi ngeye kaka kakuen‘ani Mvuluzi\nwankaka ko, kansi ngeye kaka"
+}
+]
+},
+{
+"numero": 126,
+"titre": "Nzambi utuzolele",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi utuzolele"
+},
+{
+"voix": "Tous",
+"texte": "Bukatuvana mbikudiandi\nMukutu natina kedika\nMpasi vo tuavulusua"
+},
+{
+"voix": "Solo",
+"texte": "E zola kua Nzambi kuatu kubikila nsi"
+},
+{
+"voix": "Tous",
+"texte": "E mpasi vo tuavulusua\nYe wonso weti sanga vuvu nade\nkana bungua kutu ko"
+}
+]
+},
+{
+"numero": 127,
+"titre": "Nzambi wa vanga zulu ye ntoto",
+"strophes": [
+{
+"voix": "",
+"texte": "Nzambi wavanga zulu ye ntoto\nYandi kaka wavanga lekua biabio\nKua yandi kuena lulendo lualo\nMu tuadisanga biabionsono\nYandi kaka Nzamibi a zinzambi\nFueni mu tambula nzitusu‘eto"
+},
+{
+"voix": "",
+"texte": "Zitiseno Yave tu babo\nMu kiese kiakio\nTubabo mu zola ye mu mayangi\nKua yandi, nkembo mvu ya mvu\nTufinameno kua yandi\nO mpasi tuavulusua"
+}
+]
+},
+{
+"numero": 128,
+"titre": "Nzambi a nlemvo i Nzambi yaba lunungu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Nzambi a nlemvo i Nzambi ya balunungu"
+},
+{
+"voix": "Tous",
+"texte": "Ubokilanga mameme ma vila\nVumi kia Yave\nNzambi i nto ya moyo mu Mpeve, Yandi i suamunu kia baku nzolanga"
+},
+{
+"voix": "Solo",
+"texte": "Tala ntemo’a Yave weti zieka"
+},
+{
+"voix": "Tous",
+"texte": "I zizi katusongele butu lekanga minu\nMu mambu mandi nzila mpulusu"
+}
+]
+},
+{
+"numero": 129,
+"titre": "Nzambi zeyi babonsono",
+"strophes": [
+{
+"voix": "",
+"texte": "Nzambi zeyi babonsono\nYandi watu yonzika\nKedika kiandi kafidisa\nYandi watu yonzika"
+},
+{
+"voix": "",
+"texte": "E e ngionzama yoyo tua yonzukua\nE e nsonama yoyo tua sonukua\nTukifimpa ye tukikenga\nKadi Nzambi wena yeto"
+}
+]
+},
+{
+"numero": 130,
+"titre": "Nza yayi i ya mpiokila",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi utuzolele"
+},
+{
+"voix": "Tous",
+"texte": "Bukatu songa kedika\nYe kutu songa nzila mpulusu\nMpasi vo tuavulusua"
+},
+{
+"voix": "Solo",
+"texte": "Nza yayi iya mpiokila"
+},
+{
+"voix": "Tous",
+"texte": "Mu zulu dia Yave muena nsilulu\nNsilulu kua banungini\nBana mo vundila"
+}
+]
+},
+{
+"numero": 131,
+"titre": "Nzila yikondolo ntemo’a yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Nzila yikondolo ntemo‘a Nzambi\nNzila ya tombe i mbungulu\nWonso wonso kakizayilanga dio\nMfumu Nzambi weti kutuluengisa"
+},
+{
+"voix": "",
+"texte": "Mbenzi luamueni nzila ya moyo\nInga tuazeyi nzila ya zulu\nNzila ya zulu dibundu dia tuka kua Nzambi\nI muau tusansuluanga\nNzila ya zulu dibundu dia tuka kua Nzambi\nI muau tulenda vukila"
+},
+{
+"voix": "",
+"texte": "Ntemo a Nzambi i Mambu mandi\nYandi i muinda mu nza ya yonsono\nMalongi mandi i nti wa mpulusu\nNzila ya zulu kua yandi yenina"
+}
+]
+},
+{
+"numero": 132,
+"titre": "O babingi bana kota",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "O babingi bana kota\nO babingi bana lembua kota\nO babingi bana kota\nAlleluya Mvuluzi"
+},
+{
+"voix": "Tous",
+"texte": "O babingi bana kota\nO babingi bana lembua kota\nO babingi bana kota\nAlleluya Mvuluzi"
+}
+]
+},
+{
+"numero": 133,
+"titre": "O beno banlongo luizeno",
+"strophes": [
+{
+"voix": "",
+"texte": "O beno banlongo o luizeno\nTuasika eno Yave\nNzambi\nO o Yave i Mvungi a moyo\nLuizeno tuasika Yave Nzambi\nLuizeno tua nzitisa"
+}
+]
+},
+{
+"numero": 134,
+"titre": "Sielo biafidusua kua Nzambi se",
+"strophes": [
+{
+"voix": "",
+"texte": "Sielo biafiduswa kua Nzambi Se vava nza\nI nlemvo wa Nzambi kua bantu mu nza yayi\nMpasi bavulusua mu nsamu wa kedika\nTuvana nzitusu ye nkembo kua Nzambi Se"
+},
+{
+"voix": "",
+"texte": "Bika tua yangalala, bika tuayimbidila Se\nTukembisa ntangu zazonsono\nMatondo kua Nzambi mu mambote mandi mpe Bika tuansadila lumbu biabionsono"
+},
+{
+"voix": "",
+"texte": "O Mpeve ya nlongo yena mu Nzambi eto\nMu nsi zazonsono Yave weti monika\nMu lendo kia Mpeve Sielo bietikusadila\nMu malongi ma Se bantu betivulusua"
+}
+]
+},
+{
+"numero": 135,
+"titre": "Sielo biami ya fila mu nza ya masumu",
+"strophes": [
+{
+"voix": "",
+"texte": "Sielo biami ya fila mu nza ya masumu\nSalu kiau kia ntalu vulusa miela\nYe zayikisa kua nza Nzambi a kedika\nKansi bau kabazolua ko"
+},
+{
+"voix": "",
+"texte": "Lufinama kaluzezani ko bakiasolua\nLulanda kaka mono Yave\nNdungunu eno si ya luvana\nMoyo wa mvu ya mvu\nKalu dimbulani minu ko"
+},
+{
+"voix": "",
+"texte": "Bu basamuna nsamu wambote vava nza\nSielo biami biazomua ye biavondua mpe\nBeno mpe lukundama silua belua kua nza\nBu luna sadila kedika"
+}
+]
+},
+{
+"numero": 136,
+"titre": "Situa kembela mu nzila zulu",
+"strophes": [
+{
+"voix": "",
+"texte": "Si tuakembela mu nzila zulu\nMu lumbu kinavutula\nTala mpasi zazonsono (bis)\nZi tuamueni va ntoto\nKembusua si tuakembusua"
+},
+{
+"voix": "",
+"texte": "Zimpasi zazonsono zituamueni vava ntoto\nZinzungu zazonsono zituamueni vava ntoto\nSi tuakembusua mu nzila zulu"
+}
+]
+},
+{
+"numero": 137,
+"titre": "Situa zaya mo kua yave Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Situa zaya mo kua Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Muntu muntu va nza wena ye diambu\nDiandi kana dedisa kua Nzambi eto\nMavanga mansueki mena mu ntima muntu meti monika vantadisi a Yave"
+},
+{
+"voix": "Solo",
+"texte": "Mu lumbu kia nsuka Kuzulu e"
+},
+{
+"voix": "Tous",
+"texte": "Tukenda mobuani kwa Yave\nTu tuluenga babonsono\nTuvilula diela butuena bamoyo"
+},
+{
+"voix": "Solo",
+"texte": "Tueti fundusuanga babonsono"
+},
+{
+"voix": "Tous",
+"texte": "Mfundusu a Yave yena va muntu muntu\nBeti tuadisa ye beti longua\nMa Nzambi ma Nzambi ma kimuntu a muntu\nMeti monika va ntadisi a Yave"
+}
+]
+},
+{
+"numero": 138,
+"titre": "Yave Nzambi bokele bantu bandi kumpulusu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi bokele bantu bandi ku\nmpulusu"
+},
+{
+"voix": "Tous",
+"texte": "Songele nlemvo kua babo\nMambu mandi makedika meti samunua kua babo kansi bantu beti diata mu mavanga mau"
+},
+{
+"voix": "Solo",
+"texte": "Nkia nsendo tuna baka mu mpila yoyo"
+},
+{
+"voix": "Tous",
+"texte": "O ngeye Nzambi eto\nMabanza ma bantu mena mpila mu\nMpila, O ngeye Nzambi eto\nMavanga ma bantu mena mpila ya nkaka"
+}
+]
+},
+{
+"numero": 139,
+"titre": "Yave Nzambi buka mana zola nza yayi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi buka mana zola nza yayi"
+},
+{
+"voix": "Tous",
+"texte": "Wafidisa sielo biandi\nWonso tambudi kedika kiandi\nKabungua ko"
+},
+{
+"voix": "Solo",
+"texte": "Amen, alleluya, amen , alleluya"
+},
+{
+"voix": "Tous",
+"texte": "Mu Yave tuvulusuanga\nWonso tambudi kedika kiandi\nKabungua ko"
+}
+]
+},
+{
+"numero": 140,
+"titre": "Yave Nzambi i tinunu kiami",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi i tinunu kiami\nKua ngeye itininanga\nMu zimpasi za muela ye mu mpasi za nsuni\nUkunsadisa, ngeye ntanini ami ngeye nsadisi ami Ukunsadisa"
+},
+{
+"voix": "",
+"texte": "Vo satana weti kutuzomanga\nVo masumu meti kutuzomanga"
+}
+]
+},
+{
+"numero": 141,
+"titre": "Yave Nzambi kala yami",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi kala yami\nSikila mu muel‘ami\nKadi buela katukanga\nYe mu ntangu a mpulu (bis)"
+},
+{
+"voix": "",
+"texte": "Sikila, sikilanga Yave\nNzambi\nNsiamusu tulombele\nSikilanga Yave Nzambi\nNsiamusu tulombele"
+},
+{
+"voix": "",
+"texte": "Nkembo a Yave muma zulu\nVibidila alleluya\nNkembo a Nzambi muna zulu\nYe mu ntangu a mpulusu"
+}
+]
+},
+{
+"numero": 142,
+"titre": "Yave Nzambi mfumu a babonsono",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi Mfumu a babonsono\nwutuwila mumamonsono tukulombele"
+},
+{
+"voix": "",
+"texte": "Mpeve aku nsadisi a babonso"
+}
+]
+},
+{
+"numero": 143,
+"titre": "Yave Nzambi mu mazulu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi muma zulu"
+},
+{
+"voix": "Tous",
+"texte": "Fulu kiami mu zulu kiena\nYe mu nkiama ndenda kio lembana\nVo mono ngiena kuami wa mbote\nYe mu nkiama ndenda kio lembana\nVo mono ngiena kuami wasolua"
+}
+]
+},
+{
+"numero": 144,
+"titre": "Yave Nzambi tukulomba",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi tukulomba"
+},
+{
+"voix": "Tous",
+"texte": "Utusakumunanga\nutusunga utukeba, mu mambi\nmamonsono"
+},
+{
+"voix": "Solo",
+"texte": "I yaya yaya iya yayi yaya yaya yaya"
+},
+{
+"voix": "Tous",
+"texte": "I yaya ya iya yaya\nI yaya yaya iya yayi yaya yaya yaya\nI yaya ya iya yaya"
+},
+{
+"voix": "Solo",
+"texte": "Sakumuna matulonga"
+},
+{
+"voix": "Tous",
+"texte": "Sambu kieto nkunga mpe\nWendila mavimpi tata nlongi tukudilanga kua Yave"
+},
+{
+"voix": "Solo",
+"texte": "Utuyambudila nkanu"
+},
+{
+"voix": "Tous",
+"texte": "Fuki, nganzi ye yayo\nwendila mavimpi tata nlongi\ntukudilanga kua Yave"
+},
+{
+"voix": "Solo",
+"texte": "Tukutondele mu ntima"
+},
+{
+"voix": "Tous",
+"texte": "Mu mambi makembongo\nYe tuzolele mo vanga\nye kulanda mu yayo"
+},
+{
+"voix": "",
+"texte": "Kamba mpangi zeto kuna\nVo tutonda kua babo\nBatufidisi minlongi, mia tukembi mpulusu"
+},
+{
+"voix": "",
+"texte": "Vo bua kiese vo bua kiadi\nVava nsi na zeyi vo\nwonso weti sanga vuvu, kana mona nsoni ko"
+},
+{
+"voix": "",
+"texte": "Ukiyekula kua Yave\nNitu muela ye yayo\nMpasi vo wabikua muana unasikila mu nzo"
+}
+]
+},
+{
+"numero": 145,
+"titre": "Yave Nzambi tuizidi mu fukama",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi tuizidi mu fukama"
+},
+{
+"voix": "Tous",
+"texte": "Kadi ngeye Mvangi’eto\nNzitusu ye nsikulu\nBifueni mpe kua nge mvu ya mvu\nNgeye watusongele nzila mpulusu\nBika tua kuzitisanga Mvuluzi"
+},
+{
+"voix": "Solo",
+"texte": "Kina kusisa ko Nzambi ami"
+},
+{
+"voix": "Tous",
+"texte": "Kilendi kusisa ko\nKina kusisa ko Mvuluzi\nMu zinzungu mpe ye mvuezolo"
+}
+]
+},
+{
+"numero": 146,
+"titre": "Yave Nzambi unzolele kuami",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi unzolele kuami\nInga nguilukidi kuami"
+},
+{
+"voix": "",
+"texte": "Nguilukidi, nguilukidi inga\nnguilukidi kuami"
+}
+]
+},
+{
+"numero": 147,
+"titre": "Yave Nzambi utulemvukilanga",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi utu lemvukilanga"
+},
+{
+"voix": "Tous",
+"texte": "Mu mambi meto matuavolele\nUtusimbanga nate ye muntangu lufua\nMpasi vo tualuaka ko"
+}
+]
+},
+{
+"numero": 148,
+"titre": "Yave Nzambi uzolanga babonso",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi uzolanga babonso"
+},
+{
+"voix": "Tous",
+"texte": "Unokisanga mvula ndolo kua babo\nYandi kaka zeyi mavanga ma muntu ka muntu O nkembo kua babo (bis)"
+},
+{
+"voix": "Solo",
+"texte": "O nkembo,"
+},
+{
+"voix": "Tous",
+"texte": "nkembo kua bavedila"
+},
+{
+"voix": "Solo",
+"texte": "O nkembo,"
+},
+{
+"voix": "Tous",
+"texte": "nkembo kua banlembami\nBawilu mo mpe batambudi\nLukala kiese mu mamo (bis)"
+},
+{
+"voix": "Solo",
+"texte": "Tukutonda nge Yave mu ntima wa\nkedika"
+},
+{
+"voix": "Tous",
+"texte": "Bu umeni kutu vana kedika kio\nNgeye Yave utuvana lulendo lo\nMpasi tuabedisa nza yayi"
+}
+]
+},
+{
+"numero": 149,
+"titre": "Yave Nzambi uzolanga vulusa bantu",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi uzolanga vulusa bantu\nBukatuvana sielo biandi\nMukutu natina kedika kiandi\nMpasi vo tuavulusua"
+},
+{
+"voix": "",
+"texte": "Alleluya, alleluya\nYave Nzambi wutuzolele\nAlleluya, alleluya\nZolele babo bavuluswa"
+},
+{
+"voix": "",
+"texte": "Mbikudi miandi katufila\nMambu ma moyo batunatina\nBana mosadila siba nunga\nSiba yimbila alleluya"
+}
+]
+},
+{
+"numero": 150,
+"titre": "Yave Nzambi utuzolele",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi utuzolele"
+},
+{
+"voix": "Tous",
+"texte": "Watusa minlongi muamu\nNza yayi ya masumu\nBukabedisa satana nade\nYe wavova buabu luendeno"
+},
+{
+"voix": "Solo",
+"texte": "Luendeno, luendeno, luendeno"
+},
+{
+"voix": "Tous",
+"texte": "Muna nza yayonsono\nLuenda samunina nsamu wambote\nKadi Yave wamana bo vova"
+}
+]
+},
+{
+"numero": 151,
+"titre": "Yave Nzambi wafidisa mimbikudi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi wafidisa mibikudi"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi vo bakunlekilanga minu\nbana zamuna mu tiya tua mvu ya mvu"
+}
+]
+},
+{
+"numero": 152,
+"titre": "Yave Nzambi watunga dibundu",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi watunga dibundu"
+},
+{
+"voix": "Tous",
+"texte": "Mameme mandi zeyi mo mamonso\nSielo biandi i mimvungi kasola\nMu dikilanga mo ye mu toma lunda mo"
+},
+{
+"voix": "Solo",
+"texte": "Kua sielo biabio Yave Nzambi wavova"
+},
+{
+"voix": "Tous",
+"texte": "Mameme mami kamalendi vila ko\nBavidisa mo bamana singua babo\nLukebeno mu mbandu yayi mpe"
+},
+{
+"voix": "Solo",
+"texte": "Bakiasolua mu bundu dia nlongo"
+},
+{
+"voix": "Tous",
+"texte": "Kimvuama kieno i mambu ma Nzambi\nMaluwanga mu bundu dia nlongo\nI nzila mpulusu lulenda vulusulua"
+},
+{
+"voix": "Solo",
+"texte": "Lubisielo luwa ye minlongi"
+},
+{
+"voix": "Tous",
+"texte": "Bavidisanga mameme ya sola\nNsendo awu i zanga dia tiya\nBuba sadilanga mu nduenga za satana"
+}
+]
+},
+{
+"numero": 153,
+"titre": "Yave Nzambi wena tuka ntangu yikayibadiki",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi wena tuka ntangu\nyikayibadiki"
+},
+{
+"voix": "Tous",
+"texte": "Nateye mu ntangu yika yimani"
+},
+{
+"voix": "Solo",
+"texte": "Nzambi eto"
+},
+{
+"voix": "Tous",
+"texte": "Bika nkumbu aku yanzitusu yasikua\nYazangama, va ntandu a nzitusu wawo\nYe nsikulu yayo"
+},
+{
+"voix": "Solo",
+"texte": "O Yave Nzambi ngeye kaka Mvuluzi eto"
+},
+{
+"voix": "Tous",
+"texte": "Tuzolele babo tuavulusua kua nge"
+}
+]
+},
+{
+"numero": 154,
+"titre": "Tinanga mu ntangu zazo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tinanga mu ntangu zazo"
+},
+{
+"voix": "Tous",
+"texte": "Butumueni nganzi za Nzambi\nTinanga mu ntangu zazo\nButumueni nganzi za Nzambi\nTinanga mu ntangu zazo"
+}
+]
+},
+{
+"numero": 155,
+"titre": "Tombe kia fuka meso meto i satana",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tombe kiafuka meso meto i satana"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi Mvuluzi ngeye ntemo a\nnza zibula meso meto mu ndongolo zaku Utusonga nzil‘aku mpasi tuavulusua"
+},
+{
+"voix": "Solo",
+"texte": "Ngeye ikia kua nza Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Ukienzulanga bena mu tombe\nKulumuna mampa ma moyo i mambu\nmaku mena ma mpulusu"
+},
+{
+"voix": "Solo",
+"texte": "Tuena mu mpinda beni ya masumu va\nnza"
+},
+{
+"voix": "Tous",
+"texte": "Wiza nsualu Nzambi eto mu kutu vulusa\nDimbu kia nlemvo aku i mambu ma kedika Kota mu ntima mieto do utuvulusa"
+}
+]
+},
+{
+"numero": 156,
+"titre": "Tuakotusua beto babonso",
+"strophes": [
+{
+"voix": "",
+"texte": "Tuakotusua beto babonsono\nMu bundu dia KCC\nKua Yave Nzambi i Mvungi wabiza\nTuatambula mambu ma moyo\nI mambu ma mpulusu\nMpasi tuakota mu nkembo wa Nzambi"
+},
+{
+"voix": "",
+"texte": "Kedika ntangu i fueni kua beto\nNtangu ifueni mu sadila Yave\nNtangu ifueni kua beto\nTuba kia solua Yave utuzolele\nTukota mu Yave"
+}
+]
+},
+{
+"numero": 157,
+"titre": "Tuendeno kua yave babonsono",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tuendeno kua Yave babonsono"
+},
+{
+"voix": "Tous",
+"texte": "Tutuikuanga zitu ye vangu bia nza\nTuendeno kua Yave babonsono\nYandi sika tuvundisa"
+},
+{
+"voix": "Solo",
+"texte": "Tutalanga Mfumu eto Yave"
+},
+{
+"voix": "Tous",
+"texte": "Mvungi eto wabiza\nYandi lenda vana\nmoyo wa mvu ya mvu"
+}
+]
+},
+{
+"numero": 158,
+"titre": "Tuka vana mbadukulu va tua bua",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tuka vana mbadukulu va tuabua"
+},
+{
+"voix": "Tous",
+"texte": "Tuka vana mpuila yingi tuenina\nYave Nzambi watufila Mbikudi\nMina kutu samunina kedika"
+},
+{
+"voix": "Solo",
+"texte": "Amen Yave Nzambi wiza"
+},
+{
+"voix": "Tous",
+"texte": "Amen Yave Nzambi wiza\nAmen Yave Nzambi wiza\nAmen Yave Nzambi wiza"
+},
+{
+"voix": "Solo",
+"texte": "Nowa ye Enoki bubakuikama"
+},
+{
+"voix": "Tous",
+"texte": "Yave Nzambi eto wabavulusa\nAbalahami bukatoma sambila\nLoti muna sodomo wavulusua"
+},
+{
+"voix": "",
+"texte": "Vo zimpasi tueti mona vava nza\nYave weti kutulonga sambila\nLendo kiandi kina kutusadisa\nMu bedisa ntantu eto satana"
+}
+]
+},
+{
+"numero": 159,
+"titre": "Tukembiseno yave Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Tukembiseno Yave Nzambi\nBu tueti zinga vava nza yayi\nTulembua mambi mamo ma nza yayi\nManatanga ku mbungulu (bis)"
+},
+{
+"voix": "",
+"texte": "Luiza kota mu kembo uvulusanga\nWatuala bisielo bia Se"
+},
+{
+"voix": "",
+"texte": "Butuetilonga mambu ma Dise\nTutatamana mu sadilanga ye toma tina\nMpeve zazonsono zinatanga ku mbungulu"
+}
+]
+},
+{
+"numero": 160,
+"titre": "Tukidi mu Nzambi kana vila ko",
+"strophes": [
+{
+"voix": "",
+"texte": "Tukidi mu Yave kana vila ko\nTukidi mu Yave kana vila ko\nO kana vila ko"
+}
+]
+},
+{
+"numero": 161,
+"titre": "Tukidi va ntoto wena moyo vantoto",
+"strophes": [
+{
+"voix": "",
+"texte": "Tukidi va ntoto wena moyo vava ntoto\nTukidi va ntoto wena moyo vava ntoto\nBana ba Nzambi beti yamusua va ntoto\nYave Nzambi kembo wena mu kayengele"
+}
+]
+},
+{
+"numero": 162,
+"titre": "Tukota mu kimpeve",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tukota mu kimpeve situatambula"
+},
+{
+"voix": "Tous",
+"texte": "Mamonso matulomba kua Yave Nzambi eto, Tukota mu kimpeve ye situatambula, Mamonso matulomba kua Yave Mvuluzi"
+},
+{
+"voix": "Solo",
+"texte": "Do Yave Nzambi utubanzila"
+},
+{
+"voix": "Tous",
+"texte": "Do utuvana lulendo luaku mpe\nMpasi tuakala ngolo ye lulendo\nMu nunganga nate ye nsukulu"
+}
+]
+},
+{
+"numero": 163,
+"titre": "Tukuikama mu yave Nzambi Tata",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tukuikama mu Yave Nzambi\nYe tuyangalala mu mambote mandi"
+},
+{
+"voix": "Tous",
+"texte": "Tukuikama mu Yave Nzambi\nYe tuyangalala mu mambote mandi"
+},
+{
+"voix": "",
+"texte": "Kia kua mpulusu tusimbanga kio\nMpasi tuabedisanga satana mu nza"
+}
+]
+},
+{
+"numero": 164,
+"titre": "Tukuikama mu sala salu kia yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Tukuikama mu sala salu kia Yave\nYave Nzambi eto utuzolele\nMbutu mia mpeve i nsendo a bulemvo\nTuyimbila mu sanisina Mfumu"
+},
+{
+"voix": "",
+"texte": "Bika tuavanga luzolo luandi\nBika tuasadila Yave Nzambi\nNsendo a salu kia Nzambi\nI Mpulusu a muela\nYe kota mu kayengele\nNsendo a salu kia Nzambi\nI Mpulusu a muela\nTusadilanga matulonguanga"
+},
+{
+"voix": "",
+"texte": "Mfumu Nzambi weti bokila babonso\nMpasi tuatambula mambu ma mpulusu\nYe sala salu kiandi mu dibundu\nMu kintuadi ye mpeve ya kedika"
+},
+{
+"voix": "",
+"texte": "Nsololo yoyo ya lusakumunu\nKua wonso wena ntima wavelela\nMu sala salu kia Yave Nzambi eto\nYe tambula nsendo muna kayengele"
+}
+]
+},
+{
+"numero": 165,
+"titre": "Tulubukeno mu mambu ma yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Tulubukeno mu mambu ma Yave\nMa tueti longua bika tualubukeno (bis)"
+},
+{
+"voix": "",
+"texte": "E mu mambu"
+},
+{
+"voix": "",
+"texte": "Mu mambu ma Yave mamonsono\nTuetilongua, bika tualubukeno"
+},
+{
+"voix": "",
+"texte": "Mu mambu ma Yave mamonsono\nTueti longua vava ntoto, bika tualubukeno"
+},
+{
+"voix": "",
+"texte": "Mambu ma Yave mamonsono\nTueti longi kua bisielo, bika tua lubukeno"
+}
+]
+},
+{
+"numero": 166,
+"titre": "Tusala salu kia yave Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Tusala salu kia Yave Nzambi\nMu kedika ye mu lunungu\nMpasi Yave Nzambi yasikila mu beto\nYe tambula nsendo wa kedika\nMu moko mandi muna kayengele"
+},
+{
+"voix": "",
+"texte": "O o tuzaya vo, tuzaya vo\nMinu kio kikondolo mavanga\nO minu kiokio kia fua kiena\nMinu kio kikondolo mavanga\nO minu kiokio kia fua kiena"
+},
+{
+"voix": "",
+"texte": "Mu bundu diodio dia banlongo\nTuzaya vo sala ye sambila\nKadi beto tuena basolua\nMu sadisa bundu dia banlongo\nNsendo eto muna kayengele"
+}
+]
+},
+{
+"numero": 167,
+"titre": "Tutonda e e tutonda",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tutonda e e tutonda\nBeto tuafuila nkenda kua Nzambi eto\nBukatusongele nzila mpulusu\nTutonda e e tutonda"
+},
+{
+"voix": "Tous",
+"texte": "Tutonda e e tutonda\nBeto tuafuila nkenda kua Nzambi eto\nBukatusongele nzila mpulusu\nTutonda e e tutonda"
+}
+]
+},
+{
+"numero": 168,
+"titre": "Tutonda Nzambi eto mu mamonsono",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tutonda Nzambi eto mu mamonsono\nkadi wena wambote ntangu zazonsono"
+},
+{
+"voix": "Tous",
+"texte": "Tutonda Nzambi eto mu mamonsono\nkadi wena wambote ntangu zazonsono"
+},
+{
+"voix": "Solo",
+"texte": "I yandi wavanga zulu ye ntoto\nKadi wena wambote ntangu zazonsono"
+},
+{
+"voix": "Tous",
+"texte": "I yandi wavanga zulu ye ntoto\nKadi wena wambote ntangu zazonsono"
+}
+]
+},
+{
+"numero": 169,
+"titre": "Tutonda tutondeno mpungu tulendo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tutonda tutondeno Mpungu Tulendo"
+},
+{
+"voix": "Tous",
+"texte": "I yandi watuvangidi mangitukulu\nBukatusongele nzila mpulusu\nTutonda e e tutonda"
+},
+{
+"voix": "Solo",
+"texte": "Lubana ba Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Tutonda Yave"
+},
+{
+"voix": "Solo",
+"texte": "Lubakiasolua"
+},
+{
+"voix": "Tous",
+"texte": "Tutonda Yave\nI yandi watuvangidi mangitukulu\nTutonda e tutonda\nBukatusongele nzila mpulusu\nTutonda e e tutonda"
+}
+]
+},
+{
+"numero": 170,
+"titre": "Tuvumina yave mu ntangu zazo",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Tuvumina Yave mu ntango zazo"
+},
+{
+"voix": "Tous",
+"texte": "Tuvumina Yave mu ntango zazo\nSitua vungua kua Nzambi a moyo\nTuvumina Yave mu ntango zazo\nBana beto sibavungua mpe"
+},
+{
+"voix": "Solo",
+"texte": "Nzambi wanlongo wanlongo kena"
+},
+{
+"voix": "Tous",
+"texte": "Beto mpe va ntoto tutina mambi\nKadi yandi wanlongo kena\nTutinanga nsumukunu zazo\nTuanzitiseno mu ntangu zazo"
+}
+]
+},
+{
+"numero": 171,
+"titre": "Tuzitisa yave Nzambi",
+"strophes": [
+{
+"voix": "",
+"texte": "Tuzitisa Yave Nzambi\nKatumfuemisa kutu ko"
+},
+{
+"voix": "",
+"texte": "Tuyangalala ah ah ah\nKadi yandi i Nzambii eto"
+},
+{
+"voix": "",
+"texte": "Tusungama mu nzila Yave\nKatu vengama kutu ko (bis)"
+},
+{
+"voix": "",
+"texte": "Tusikila mu Yave Nzambi\nSi tuabaka luvundulu (bis)"
+},
+{
+"voix": "",
+"texte": "Tukembisa Yave Nzambi\nKadi yandi i Mvuluzi (bis)"
+}
+]
+},
+{
+"numero": 172,
+"titre": "Ulembua zolanga zimpangi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Ulembua zolanga zimpadi kazeyi Nzambi\nko"
+},
+{
+"voix": "Tous",
+"texte": "Ka nsambidi a lunungu ko\nKinlongo kia konso muntu mu zola kienina, i muau muena nsendo miamio"
+},
+{
+"voix": "Solo",
+"texte": "Tuzolana kueto zimpangi zami"
+},
+{
+"voix": "Tous",
+"texte": "Tusalasana mu mawonsono\nYave Nzambi uzolanga bantu babo\nUsadisanga mu mpasi zazo"
+},
+{
+"voix": "",
+"texte": "Ulembua zolanga dibundu dia Yave Nzambi eto\nI mbeni a kedika nkundi a satana\nKondolo kedika kia mambu ma Yave Nzambi eto\nYe wena nkuna wa mbungulu"
+},
+{
+"voix": "",
+"texte": "Zola kua kedika kuena zola kua lembami\nKutukisanga luvuvamu\nMu konso fulu kuena zola kua Yave Nzambi\nYave Nzambi ukembusuanga"
+}
+]
+},
+{
+"numero": 173,
+"titre": "Ukiese kiami va nza mfumu",
+"strophes": [
+{
+"voix": "",
+"texte": "Ukiese kiami va nza Mfumu\nKimbangi kiaku i nienzi ami\nUmpana zola kua kedika\nMpasi yakembisa nkumbu aku"
+},
+{
+"voix": "",
+"texte": "Kakuena nkumbu ya nkaka ko vava nza\nKizeyi nkumbu ya nkaka ko kedika\nI yoyo ya Yave Nzambi kaka\nI yoyo yena mpe lendo mu mamo\nMu yau yi vulusulua"
+}
+]
+},
+{
+"numero": 174,
+"titre": "Utu yambudila utulemvukila",
+"strophes": [
+{
+"voix": "",
+"texte": "Utuyambudila utulemvukila\nMu mamonso ma tuavolele"
+},
+{
+"voix": "",
+"texte": "O o Yave\nUtuyambudila, utulemvukila\nMu mamonso matuavolele"
+}
+]
+},
+{
+"numero": 175,
+"titre": "Vana mu kiese vana kua yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Vana mu kiese vana kua Yave\nVana mu kiese i kulombele\nVana mu sadikisa salu kia Yave\nVana mu kiese i kulombele"
+},
+{
+"voix": "",
+"texte": "Kionso kionso ki ubeki\nVana kua Yave\nKiakinene evo kia kike\nKionso kiena mu kimvuama kiaku\nKionso kiena mu kimputu kiaku\nVana nkayilu kua Yave\nVana ntima mpe"
+},
+{
+"voix": "",
+"texte": "Mu mimbutu miaku mia Mpeve\nMu mimbutu miaku mia mpuenia\nVana mu sadisa salu kia Yave\nVana kifueni ikulombele"
+}
+]
+},
+{
+"numero": 176,
+"titre": "Vaneno minkayilu kua yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Vaneno minkayilu kua Nzambi\nYave Nzambi tambula mio\nMusadisa dibundu dia banlongo\nSalu kio kia mpulusu"
+},
+{
+"voix": "",
+"texte": "Lubatata ye bamama luvaveno mu ntima kia\nMono ngieti vanina mu kiese\nMu mayangi ma ntim‘ami ngieti vanina\nKua Yave kadi yandi Mvuluzi eto"
+},
+{
+"voix": "",
+"texte": "Tusaleno mu dibundu dia Nzambi\nMutomisa ye kudisa dio\nMu biakinsuni ye mpe bia kimpeve\nMu vana nkembo kua Mpungu Tulendo"
+},
+{
+"voix": "",
+"texte": "Bundu dia Nzambi i kabu dia banlongo\nMu diau tukuduswanga\nMu bikua bana ba Yave a moyo\nYe bombwanga mu mbanza banlongo"
+}
+]
+},
+{
+"numero": 177,
+"titre": "Vaneno kua yave eto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Vaneno kua Yave eto"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi tuatambula lusakumunu"
+},
+{
+"voix": "Solo",
+"texte": "Nki a lusakumunu tuna tambula e e"
+},
+{
+"voix": "Tous",
+"texte": "Lua biza, lua komua, lua nikusua\nYe luasampa, sikatuvana mu nkata zeto"
+},
+{
+"voix": "Solo",
+"texte": "Tusadiseno bundu dia banlongo"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi tuatambula lusakumunu\nYave Nzambi i Se dia banlongo\nTuansadila mu Mpeve ye kedika"
+}
+]
+},
+{
+"numero": 178,
+"titre": "Vo lua meni kukiyekula kua yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo luameni kukiyekula kua Yave\nKaluvisuk ani ntima ko (bis)"
+},
+{
+"voix": "",
+"texte": "Lekila Yave minu\nLekila Yave minu\nVo buakiese vo bua kiadi\nKaluvisukani ntima ko"
+}
+]
+},
+{
+"numero": 179,
+"titre": "Vo lufua vo ntotolo",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo lufua vo ntotolo\nLanda kaka nzila Yave Nzambi\nE Mfumu Yave i Nzambi eto\nYandi kaka lenda kutu vulusa"
+},
+{
+"voix": "",
+"texte": "E yayi nsabi a zulu ibaku veni kuaku\nTatamana mu mambu mawatambudidi\nYoyo nsabi a zulu i bakuveni kuaku\nNsabi a zulu i mambu ma Se"
+},
+{
+"voix": "",
+"texte": "Mu zinzungu mpe mu nza\nYave kaka lenda kututanina\nYandi wena lendo mu mamo\nYe bedisanga satana nade"
+},
+{
+"voix": "",
+"texte": "Mu Yave kaka muena ndungunu\nMu Yave kaka muena nzila Mpulusu\nMu kayengele weti kubikanga fulu bieto\nMu mbanza nsilulu"
+}
+]
+},
+{
+"numero": 180,
+"titre": "Vo lukunzolanga",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Vo lukunzolanga"
+},
+{
+"voix": "Tous",
+"texte": "Lukembanga nsikudusu zami\nKadi beno ya solele mu kintumua\nMu kamba nsamu kua nza\nVo mono Yave i Mvuluzi eno beno babo"
+},
+{
+"voix": "Solo",
+"texte": "Lutelema luenda"
+},
+{
+"voix": "Tous",
+"texte": "Bankaka bakidi bakangama\nLutelema luenda\nBankaka bakidi mu boloko\nLubasonga kaka vo Yave lenda kuluvulusa"
+},
+{
+"voix": "Solo",
+"texte": "Lulonga bantu"
+},
+{
+"voix": "Tous",
+"texte": "Bonso buenina kedika kia masonukua\nBu wetilonga ukitala vo nge wena wavedila\nMpasi Yave Nzambi kakala yaku mu samuna"
+}
+]
+},
+{
+"numero": 181,
+"titre": "Vo mayela vo mvuezolo siama mu minu",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo mayela vo mvuezolo mpe\nSiama mu minu ye telema na ngui\nSiama mu minu ye bedisa mpe\nSiama mu ntangu zazo"
+},
+{
+"voix": "",
+"texte": "Oh oh siama mu Yave\nSiama mu Yave mu ntangu zazo\nSiama mu Yave watuvulusa\nSiama mu ntangu zazo"
+}
+]
+},
+{
+"numero": 182,
+"titre": "Vo mu nko weti zingilanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo mu nko weti zingilanga vava ntoto\nVo mu nko weti zingilanga vava nsi\nToma yindula diodio mu madiela\nToma bombidila Mfumu kavilula madiela"
+}
+]
+},
+{
+"numero": 183,
+"titre": "Vo tumona nzungu mu salu kia yave",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo tumona nzungu mu salu kia Yave\nSi tuabombua kueto mu mazulu\nMpasi nzungu nkuamusu ntotolo\nTufueti vibidila bio ntangu zazo"
+},
+{
+"voix": "",
+"texte": "Sielo longa mambu ma Yave\nLonga mpe zintotolo zena mo\nMu nduanunu ye ndungunu eto\nTukembisange Yave Nzambi nade"
+},
+{
+"voix": "",
+"texte": "Beto Kanda dia Yave mu nza yayi\nTufueni zitisanga Yave Nzambi\nVo kiese vo zimpasi tueti monanga\nTukiyekulanga kua Yave Nzambi"
+}
+]
+},
+{
+"numero": 184,
+"titre": "Vo zolele nkundi watoma zinga vava nza",
+"strophes": [
+{
+"voix": "",
+"texte": "Vo zolele nkundi watoma zinga vava nza\nSadila nsiku mia Yave Nzambi\nWonso muntu uzitisanga nsiku miandi miamionsono\nWena mu kiese ye mu luvuvamu"
+},
+{
+"voix": "",
+"texte": "Nsiku mia Yave Nzambi miena ntomosono\nTomakeba mio tomasimba mio\nYe malonganga mi mbikudi tusadilanga mo"
+},
+{
+"voix": "",
+"texte": "Beto babo tuena banzenza kaka va nza yayi\nTuvanga luzolo lua yave Nzambi\nMu lemvuka beto babo tusadila Nzambi eto\nTuamvana nkembo ye nzitusu babo"
+},
+{
+"voix": "",
+"texte": "Tukituleno nitu zeto kinlongo kua Nzambi eto\nWatuvanga mu kifuani kiandi\nYandi fueni mu tambula nkembo ye\nNzitusu kua beto ye sikila ye\nYandi kuele mvu"
+}
+]
+},
+{
+"numero": 185,
+"titre": "Waunene wauke",
+"strophes": [
+{
+"voix": "",
+"texte": ": / Waunene wauke\nkua Nzambi kuena moyo wa mvu ya mvu / :"
+},
+{
+"voix": "",
+"texte": "O tukubama ye mukusambila\nYave Nzambi wa nlongo kenina\n: / Mu wawana ye yandi kala wa nlongo : /"
+},
+{
+"voix": "",
+"texte": "Mu zinzungu vava nza\nKua Yave kaka kuena ye mbombolo\nMu zi nzungu vava nza\nKua Yave kaka kuena ye mbombolo"
+},
+{
+"voix": "",
+"texte": "Mu mpinda za masumu sa nsualu\nWiza kua Yave i Mvuluzi\nMu mpinda za masumu sa nsualu\nWiza kua Yave i Mvuluzi"
+},
+{
+"voix": "",
+"texte": "Yave Nzambi i Mvuluzi nade\nKua yandi kaka tulenda vulusua\nYave Nzambi i Mvuluzi nade\nKua yandi kaka tulenda vulusua"
+}
+]
+},
+{
+"numero": 186,
+"titre": "Wenda ku zulu nge veka",
+"strophes": [
+{
+"voix": "",
+"texte": "Wenda kuzulu nge veka\nWenda kuzulu nge veka\nWa lembua kuenda ku zulu\nNge veka e e muana Nzambi nge veka"
+},
+{
+"voix": "",
+"texte": "Wamona Yave Nzambi nge veka"
+},
+{
+"voix": "",
+"texte": "Wenda ku mbungulu nge veka"
+}
+]
+},
+{
+"numero": 187,
+"titre": "Wonso wonso wizidi mu nkumbua mfumu",
+"strophes": [
+{
+"voix": "",
+"texte": "Wonso wonso wizidi mu nkumbu a Mfumu\nYandi i muana wa lusakumunu\nMu yandi muna kala mbutu mia mpeve\nNsendo andi zulu dia Nzambi"
+},
+{
+"voix": "",
+"texte": "O o beto tuizi finama kua ngeye Yave\nO o beto mpe tukulombele utufinama\n: / Wutuwe ye wutuvua Tata\nbeto kanda diaku dia lusakumunu"
+},
+{
+"voix": "",
+"texte": "Mfumu eto Yave weti vingilanga\nWonso wonso zolele vo kavulusua\nZola kuena yandi kakuena nsuka ko\nNkenda ye nlemvo biena yandi"
+},
+{
+"voix": "",
+"texte": "Vo wonga wa masumu wena mu ntim‘aku\nNgeye sa nsualu, wiza kua Yave\nSonga kaka masumu maku mamonsono\nYandi sikakuvedisa"
+}
+]
+},
+{
+"numero": 188,
+"titre": "Yatomene visa mbikudi bia filua va nza",
+"strophes": [
+{
+"voix": "",
+"texte": "Yatomene visa mbikudi biafilua va nza\nKua ba nkua masumu mpasi vo bavulusua\nYa vola masumu Yave wangiambudila\nYakala mu mpasi kansisa kinsona ko"
+},
+{
+"voix": "",
+"texte": "Mpulusu ami yena kua nge Yave\nU Nzambi ami kua ngeye nsidi vuvu\nMu zingu kiami vava nza\nU Nzambi ami kua ngeye nsidi vuvu\nKumvilakana ko"
+},
+{
+"voix": "",
+"texte": "Yatomene visa satana kua kimpala\nKua bana ba Nzambi bena mu nzila moyo\nMu nzungu zambuila yandi wayangalala\nMu mpeve a bunkita watomba mpe yavila"
+}
+]
+},
+{
+"numero": 189,
+"titre": "Yavedusua yayika kia sala wonga ko",
+"strophes": [
+{
+"voix": "",
+"texte": "Yavedusua yayika kiasala wonga ko\nMu yimbila boka ibokanga\nMasumu masanga nsoni mono yalosa mo\nI diau ibokanga mu kiese"
+},
+{
+"voix": "",
+"texte": "Masumu mavambisanga\nMuntu ye Nzambi andi\nMasumu masanga nsoni\nMu yimbidila Yave"
+},
+{
+"voix": "",
+"texte": "Ya vedusua yayika kiasala wonga ko\nMu yimbila boka i bokanga\nMasumu ma sanga nsoni mono yalosa mo\nI diau ibokanga mu kiese"
+},
+{
+"voix": "",
+"texte": "Mu Yave ngiena moyo\nYe mpulusu nade\nMu nza yayi kuena umosi ko\nUlenda vulusanga, ku moyo wa mvu ya mvu\nIdiau nginasikila mu Yave"
+},
+{
+"voix": "",
+"texte": "Nsamua mbote i nzila, kedika ye moyo\nI wawu kaka ngina landanga\nMu wawu kaka muena nzila kayengele\nI mbanza ya banungini"
+}
+]
+},
+{
+"numero": 190,
+"titre": "Yave Nzambi i nani mu kedika",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi i nani mu kedika"
+},
+{
+"voix": "Tous",
+"texte": "Mvuluzi a miela mu nza yayo\nToma vuandisa Yave mu ntim‘aku\nMfumu Yave i Nzambi ya kedika"
+},
+{
+"voix": "Solo",
+"texte": "O mambu na Nzambi nzil‘ami ya\nmpulusu"
+},
+{
+"voix": "Tous",
+"texte": "Muel’ami yangalala yimbidila Mvuluzi\nO nkembo nkembo kua Yave unzolele\nO nkembo nkembo kua Yave i Mvuluzi"
+},
+{
+"voix": "",
+"texte": "Bue ilenda zingila ye Mvuluzi\nI muvanga mamo kazolanga\nKala bonso dimeme diodio dia lembama\nSi wazolua kua Yave Mvuluzi"
+}
+]
+},
+{
+"numero": 191,
+"titre": "Yave Nzambi mvuluzi simba muel‘ami",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi Mvuluzi simba muel‘ami\nYe kusadilanga mu nzila zaku\nMfumu tala muel‘ami weka lemina\nBu nzolele kusadila mu mvu miamionsono"
+},
+{
+"voix": "",
+"texte": "Nki nginavanga kua Yave Mvuluzi\nI mu kukiyekula kua Yave Mvuluzi\nNitu ye muel‘ami wawo\nYe kusadilanga mu mvu ya mvu ya mvu\nNitu ye muel‘ami wawo\nYe kusadilanga mu mamonsono"
+}
+]
+},
+{
+"numero": 192,
+"titre": "Yave Nzambi nge mvuluzi eto",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave Nzambi nge Mvuluzi eto"
+},
+{
+"voix": "Tous",
+"texte": "Zeyi mpuila zeto zazo\nTuizidi fukama va ntadisi aku\nTuzolele tuasansua kua nge"
+},
+{
+"voix": "Solo",
+"texte": "Mavanga ma Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Tuzolele mo tuzolele kueto\nTuzolele beto babo\nTuzolele mo, tuzolele kueto\nTuzolele mavanga ma Yave Nzambi"
+},
+{
+"voix": "Solo",
+"texte": "Beto babo tuateka zaya mpulusu ko"
+},
+{
+"voix": "Tous",
+"texte": "Tuakala mu tombe kia mambi\nKansi mu nlemvo a Nzambi eto\nWafidusa Mbikudi miandi"
+},
+{
+"voix": "Solo",
+"texte": "Zola kua Nzambi kulutidi mamo"
+},
+{
+"voix": "Tous",
+"texte": "Watufila mbikudi miandi\nMu kutu natina mambu mandi\nMpasi tuavewa kiese kia zulu"
+}
+]
+},
+{
+"numero": 193,
+"titre": "Yave Nzambi ngina landa",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi nginalanda\nNgina landa e e teye nsukulu"
+},
+{
+"voix": "",
+"texte": "Kansi nza yayi\nNgina landa bia nza yayi ko\nYave Nzambi ngina landa\n: / Ngina landa e e e teye nsukulu : /"
+},
+{
+"voix": "",
+"texte": "Mu Yave muena moyo\nMuena moyo o o o wa mvu ya mvu"
+}
+]
+},
+{
+"numero": 194,
+"titre": "Yave Nzambi weti kusonga nzila",
+"strophes": [
+{
+"voix": "",
+"texte": "Yave Nzambi wetikusonga nzila\nNzila yi tufueti diatila\nNzila ya kedika i nzila ya sungama\nMpasi vo tuavulusua"
+},
+{
+"voix": "",
+"texte": "O nzila yo kaluzimbisa ko\nI yoyo ya diatila sielo biabio\nWonso zolele vulusa\nKadiatila mu nzila singama"
+},
+{
+"voix": "",
+"texte": "Nsiku miandi i mambu mandi\nYandi watusongele mo\nKedika kiandi tusadila kio\nBeto situavutulua"
+}
+]
+},
+{
+"numero": 195,
+"titre": "Yave yave yave Nzambi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Yave, Yave, Yave Nzambi"
+},
+{
+"voix": "Tous",
+"texte": "Katalanga muntu ko\nYave, Yave, Yave Nzambi\nI ntima katalanga"
+},
+{
+"voix": "Solo",
+"texte": "Kimvuama kia nza va ntadisi a Yave"
+},
+{
+"voix": "Tous",
+"texte": "Ka kienandi ndandu ko\nKimvuama kia nza va ntadisi a Yave\nKa kiena ye ndandu ko"
+}
+]
+},
+{
+"numero": 196,
+"titre": "Zingunda zena yami",
+"strophes": [
+{
+"voix": "",
+"texte": "Zingunda zena yami za tatukila nza\nYe kotazulu dia Yave ye kala va kena\nMu sisa kiadi kiami ye mpasi zazonsono\nMayangi tuna kala ye Yave Nzambi eto"
+},
+{
+"voix": "",
+"texte": "Zingunda zena yami zatatukila nza\nYe sikila ye Nzambi, mu ntangu zazonso\nZingunda zazo ngiena zankaka ngiena mpe\nIbanzilanga bantu, balembua kangama"
+}
+]
+},
+{
+"numero": 197,
+"titre": "Zimpasi zetikuizanga",
+"strophes": [
+{
+"voix": "",
+"texte": "Zimpasi zetikuizanga\nKansi beto kuikameno\nMu zinzungu ye zintotolo\nTunasiama, tunasiama\nTunasiamanga babo te nsukulu"
+},
+{
+"voix": "",
+"texte": "Alleluya !\nTuna siama, tuna siama\nTuna siamanga babo te nsukulu"
+},
+{
+"voix": "",
+"texte": "Mu zinzungu ye malema, tueti tadidila Yave\nWena ye lendo kia nunga nza\nTukivana , tukivana, tukivana babo kua Nzambi eto"
+},
+{
+"voix": "",
+"texte": "Ndungunu yena mu Yave, luvuvamu lukumbanga\nBonso nto ye lusakumunu, ye mu minu, ye mu vuvu\nTuena nunguswa ye bombua babo"
+}
+]
+},
+{
+"numero": 198,
+"titre": "Zimpangi zeto bameni baka mpulusu",
+"strophes": [
+{
+"voix": "",
+"texte": "Zimpangi zeto bameni baka mpulusu\nBeto babonsono tulendo baka yo\nBampangi zeto bameni baka mpulusu\nBeto babonsono tulenda baka mpulusu"
+},
+{
+"voix": "",
+"texte": "O mpulusu tuasilua\nMpulusu yena mu Nzambi eto\nO mpulusu tuasilua\nBeto babonsono tulenda baka mpulusu"
+}
+]
+},
+{
+"numero": 199,
+"titre": "Zibula ntima",
+"strophes": [
+{
+"voix": "",
+"texte": "Zibula ntima\nMono nzibudi ntima\nMambu ma Nzambi mena ma mpulusu\nMu mau ngina tomusunua ye nungusua\nKua Yave Mfumu‘ami\nMu mau muena moyo wa mvu ya mvu\nUngieti vingilanga"
+},
+{
+"voix": "",
+"texte": "Vumina Yave, nkundi vumina Yave\nYandi i Mvangi a biabionsono\nYandi i Se dieto Mvangi a biabionsono\nI Mpungu Tulendo, mu yandi tuena moyo\nWa mvu ya mvu\nU tueti vingilanga"
+}
+]
+},
+{
+"numero": 200,
+"titre": "Zola kuena yami mfumu",
+"strophes": [
+{
+"voix": "",
+"texte": "Zola kuena yami Mfumu\nZola kuena yami Mfumu\nZola kuena yami Mfumu ka kua ngolo ko\nIbokanga kua ngeye Yave Nzambi ami\nNgeye wena lendo kiami mu mamonsono\nWiza wakunsadisa mpasi ya nunga nza"
+},
+{
+"voix": "",
+"texte": "O beto bantu nani tuna kembela\nYave Nzambi kaka tuna kembela\nWa nlongo o o wa nlongo o o\nWa nlongo ku zulu kena"
+}
+]
+},
+{
+"numero": 201,
+"titre": "Zola kua Nzambi kulutidi",
+"strophes": [
+{
+"voix": "Solo",
+"texte": "Zola kua Nzambi kulutidi"
+},
+{
+"voix": "Tous",
+"texte": "Kua tukubikila kiese mpe\nKiese kia zulu tuasilulu\nKiese kia kayengele"
+},
+{
+"voix": "Solo",
+"texte": "Mu zola kua kiese kia\nDise mu kuau tuizidi"
+},
+{
+"voix": "Tous",
+"texte": "Kiese kia kayengele tubimbanga kio\nTuena nsilulu a kiese kio kua Nzambi eto\nMu Yave muena nzila ya kedika\nNsabi a zulu yena kua yandi"
+},
+{
+"voix": "Solo",
+"texte": "Luzimpangi tuendeno"
+},
+{
+"voix": "Tous",
+"texte": "Tuatambula kiese kia nsilulu\nKiatukubikila Nzambi eto\nKiese kia kayengele"
+},
+{
+"voix": "Solo",
+"texte": "Lubanlongo lukuikama"
+},
+{
+"voix": "Tous",
+"texte": "Mpasi lua kota mu kayengele\nKiese kia zulu tuasilulu\nKiese kia kayengele"
+}
+]
+}
+]
