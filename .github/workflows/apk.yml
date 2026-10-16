@@ -50,9 +50,8 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-          # +100 : reste au-dessus des numéros déjà envoyés à Google Play depuis l'ancien dépôt.
-          VERSION_CODE: ${{ github.run_number + 100 }}
-        run: ./gradlew bundleRelease assembleRelease
+        # +100 : reste au-dessus des numéros déjà envoyés à Google Play depuis l'ancien dépôt.
+        run: VERSION_CODE=$((GITHUB_RUN_NUMBER + 100)) ./gradlew bundleRelease assembleRelease
 
       - uses: actions/upload-artifact@v4
         if: env.HAS_KEYSTORE == 'true'
