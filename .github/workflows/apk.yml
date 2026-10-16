@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       # « true » seulement quand les secrets de signature ont été ajoutés dans GitHub.
       HAS_KEYSTORE: ${{ secrets.KEYSTORE_BASE64 != '' }}
@@ -29,6 +31,17 @@ jobs:
         with:
           name: KCCiste-Cantique-APK-test
           path: app/build/outputs/apk/debug/app-debug.apk
+
+      # Lien direct permanent vers le dernier APK de test construit depuis main :
+      # https://github.com/<compte>/<dépôt>/releases/download/apk-test/JeSuisKCCisteCantique.apk
+      - name: Publier l'APK de test (lien direct)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk JeSuisKCCisteCantique.apk
+          gh release view apk-test >/dev/null 2>&1 || gh release create apk-test --prerelease --title "APK de test" --notes "Dernier APK de test construit depuis main. Non signé pour Google Play."
+          gh release upload apk-test JeSuisKCCisteCantique.apk --clobber
 
       - name: AAB non produit (secrets de signature absents)
         if: env.HAS_KEYSTORE != 'true'
