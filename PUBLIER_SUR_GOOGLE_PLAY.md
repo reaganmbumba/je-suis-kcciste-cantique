@@ -24,6 +24,11 @@ et je corrige les éventuelles erreurs de compilation directement.
 
 Google Play exige que chaque .aab soit signé avec **votre clé d'importation**.
 
+> **Vous avez déjà une clé ?** Si `upload.jks` a été créé pour l'ancien dépôt `jesuiskcciste`
+> (même application `com.kcciste.cantique`), **réutilisez-la** : passez directement à l'étape 3
+> avec le même fichier `upload.txt` et le même mot de passe. Google Play refuse une application
+> signée avec une autre clé que celle déjà enregistrée.
+
 Sur un ordinateur où Java ou Android Studio est installé, ouvrez un terminal et tapez :
 
 ```
